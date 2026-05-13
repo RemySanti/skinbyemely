@@ -1,0 +1,1562 @@
+export const SQUARE_PRODUCTS_DATA = [
+  {
+    "type": "ITEM",
+    "id": "UHD4VOVAZDRHI6E4US65CJMZ",
+    "item_data": {
+      "name": "60 Minute Customized Facial 3 PKG",
+      "description": "",
+      "category_id": "Facial Packages",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Other",
+      "weight": "",
+      "shipping_enabled": "N",
+      "variations": [
+        {
+          "id": "var-UHD4VOVAZDRHI6E4US65CJMZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 25500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "UVU6DLDJ5DBOEQXTDNU6LL6Q",
+    "item_data": {
+      "name": "90 Minute Customized Facial 3 PKG",
+      "description": "",
+      "category_id": "Facial Packages",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-UVU6DLDJ5DBOEQXTDNU6LL6Q",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 36000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "JY6Q72ETQSAZL5Y7F6PGKU2O",
+    "item_data": {
+      "name": "Acai Berry Moisturizer 1.7oz",
+      "description": "<p>The antioxidant-packed Acai Berry Moisturizer provides hydration and protects from environmental damage while relieving the surface signs of aging.</p><ul><li>Improves skin hydration to limit visible lines</li><li>Encourages proper moisture levels</li><li>Normalizes water/oil balance</li><li>Soothes and calms</li><li>Improves skin appearance</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply a pea-sized amount after cleansing and toning, both morning and evening.</li><li>Apply after cleansing and exfoliating/toning the skin.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-JY6Q72ETQSAZL5Y7F6PGKU2O",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3700, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "73DPJFPG4EHICC567QRBYTTK",
+    "item_data": {
+      "name": "Ageless Hydrating Serum 1oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Ageless Skin Hydrating Serum restores moisture to maintain skin barrier function, improve hydration, lessen the appearance of wrinkles, improve the health of cell membranes, and plump the skin. This sophisticated serum contains the peptides Matrixyl Synthe’ 6, DN-AGE, and Lipomoist. Essential for dehydrated, dry, acneic, and milia-prone skin.</p><ul><li>Improves hydration</li><li>Balances surface lipids</li><li>Improves the health of cell membrane</li><li>Reduces the appearance of wrinkles</li><li>Plumps the skin</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply one to two pumps to the entire face, morning and evening after cleansing and toning the skin.</li><li>Apply a moisturizer after the serum to seal the serum in the skin.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-73DPJFPG4EHICC567QRBYTTK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "FXNKITA76HOR43TF2KEQ4RJJ",
+    "item_data": {
+      "name": "Ageless Skin Moisturizer 2oz",
+      "description": "<p>Skin type: normal/combination</p><p><br/></p><p>Ageless Skin Moisturizer provides hydration without leaving a heavy feel on the skin’s surface. Relieves the surface signs of aging while promoting hydration and protecting from environmental stressors.</p><ul><li>Improves skin hydration</li><li>Encourages proper moisture levels</li><li>Normalizes water/oil balance</li><li>Soothes and calms</li><li>Improves skin appearance</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply a pea-sized amount after cleansing and toning, both morning and evening.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-FXNKITA76HOR43TF2KEQ4RJJ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IZGU5GG2RXDDPJW72E23DC7B",
+    "item_data": {
+      "name": "BIOREPEEL 4 PKG",
+      "description": "",
+      "category_id": "Facial Packages",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "hidden",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-IZGU5GG2RXDDPJW72E23DC7B",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 64000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "R2YDU6X7IUR4KUU2OCAODWU4",
+    "item_data": {
+      "name": "Beta-Carotene Papain Renewal Serum 1oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>Our Beta-Carotene Papain Renewal Serum is the perfect mild exfoliation. Papain digests dead skin cells revealing softer, smoother skin. Olivem® and allantoin restore and normalize the skin to improve barrier function for even the most sensitive skin. Our pregnancy-friendly formulation affords excellent exfoliation without the use of acids or retinoids.</p><ul><li>Improves skin barrier integrity by balancing surface lipids</li><li>Exfoliates to minimize acne and/or impacted pores</li><li>Exfoliates to lessen the appearance of visible wrinkles</li><li>Provides calming benefits</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply one to twp pumps of Beta-Carotene/Papain Renewal Serum to the skin every night after cleansing and/or exfoliating.</li><li>Apply moisturizer over the serum.</li><li>Reduce usage if flaking occurs.</li><li>Avoid getting into the eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p><p><br/></p>",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5), Exfoliants (755RWOQD2JIY46E6JDU7ZOKG)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-R2YDU6X7IUR4KUU2OCAODWU4",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3650, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "ZFMKHXDPHALHN3QQ4UJ4T2ID",
+    "item_data": {
+      "name": "Blemish Spot Treatment",
+      "description": "<p>Skin type: acneic skin</p><p><br/></p><p>Our Blemish Spot Treatment is perfect to aid in alleviating active breakouts and treating cystic acne.</p><ul><li>Soothes skin irritation</li><li>Clarifies breakouts</li><li>Assists in boosting hydration levels</li><li>Limits scarring</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Apply a pea-sized amount to active breakouts as needed.</li><li>The serum can be applied over makeup because it will penetrate through the makeup.</li><li>Always wear sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-ZFMKHXDPHALHN3QQ4UJ4T2ID",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "E6VIVOXRWK2RGKAVOCNRYTES",
+    "item_data": {
+      "name": "Botanical Bloom Hydrating Mask",
+      "description": "<p>Experience intense hydration and radiant skin with our Botanical Bloom Hydrating Mask, powered by our exclusive Super Floral Complex. This luxurious blend of rose, orchid, and daisy works to visibly brighten, calm, and restore your complexion—helping to fade dark spots, reduce redness, and enhance your skin’s natural glow.</p><p>Infused with our Triple HA Complex, featuring three molecular weights of hyaluronic acid, this mask delivers deep, targeted hydration exactly where your skin needs it most.</p><p>Gentle yet effective, it’s perfect for all skin types, especially those dealing with dryness, sensitivity, or dullness. Reveal a plumper, more luminous complexion with every use.</p><p><br/></p><p><strong><u>Key Points</u></strong></p><ul><li>Brightening</li><li>Reduces the appearance of fine lines</li><li>Enhances luminosity</li><li>Addresses concerns with redness, dark spots, fine lines, and dehydration</li></ul><p><br/></p><p><br/></p><p><strong><u>How to Use</u></strong></p><p>Best paired with our Revitalizing Cucumber Treatment.</p><p>Apply and remove after 10-15 minutes.</p><p>Apply and enjoy as an overnight hydrating treatment.</p><p><br/></p><p><br/></p><p><strong><u>Key Ingredients</u></strong></p><p><strong>Rosaliss™ (Water, Butylene Glycol, Rosa Centifolia (Rose) Flower Extract)</strong> Helps protect skin microbiome from UV damage with a pre-biotic and postbiotic effect. Exceptional in smoothing skin texture and reducing the signs of aging, redness and sensitivity.</p><p><strong>Orchistem™ (Water, Glycerin, Calanthe Discolor (Orchid) Extract, Xanthan Gum, Sodium Benzoate, Gluconolactone, Calcium Gluconate)</strong> Orchid stem cells that enhance and improve communication between skin stem cells and fibroblasts that result in a global rejuvenating effect.</p><p><strong>Bellis Perennis (Daisy) Flower Extract</strong> Highly efficient skin brightener that influences different pathways involved in melanin formation, antioxidant.</p><p><strong>Luminescine (Glycerin, Hydrolyzed Thapsus Flower, Citric Acid, Sodium Benzoate, Potassium Sorbate)</strong> Highly innovative; the first natural active ingredient for cosmetics based on plant photoluminescence, the emission of visible light by a substance caused by high (UV) energy light. It can absorb UV radiation and transform it into visible light, giving brightness and radiance to skin.</p><p><strong>Triple HA Complex (Sodium Hyaluronate (L), Hyaluronic Acid, Sodium Hyaluronate Crosspolymer-3</strong> is a powerful complex with three different forms of hyaluronic acid to defend against premature aging, keeping the skin hydrated and plump.</p><p><br/></p><p><br/></p><p><strong><u>Formula Composition</u></strong></p><p><em>Aqua (Water), Glycerin, Glucamine, Dimethicone, Bellis Perennis (Daisy) Flower Extract, Carbomer, Polysorbate 20, Styrene/Acrylates Copolymer, Isosorbide Dicaprylate, Hydroxyethylcellulose, Hydrolyzed Verbascum Thapsus Flower, Calanthe Discolor Extract, Rosa Centifolia Flower Extract, Sodium Hyaluronate (L), Sodium Hyaluronate Crosspolymer-3, Hyaluronic Acid, Aloe Barbadensis Flower Extract, Allantoin, Bisabolol (L-alpha), Simmondsia Chinensis (Jojoba) Seed Oil, Curcuma Longa (Turmeric) Root Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract, Coccinia Indica Fruit Extract, Solanum Melongena (Eggplant) Fruit Extract,Melia Azadirachta (Neem) Leaf Extract, Melia Azadirachta (Neem) Flower Extract, Sodium Benzoate,Gluconolactone, Alcohol, Xanthan Gum, Hamamelis Virginiana (Witch Hazel) Water,Sodium Polygamma-Glutamate, Calcium Gluconate, Sodium Gluconate, O-cymen-5-OL, Ethylhexylglycerin, Citric Acid, Phenoxyethanol,Fragrance/Parfum</em></p>",
+      "category_id": "Masks",
+      "seo_title": "Masks",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-E6VIVOXRWK2RGKAVOCNRYTES",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4800, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "HKMBBNXHBERNKRDBIJELDTUL",
+    "item_data": {
+      "name": "CIRCADIA HONEY MICROEXFOLIATING CLEANSER",
+      "description": "",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-HKMBBNXHBERNKRDBIJELDTUL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "3IKRPTGZSRK56EF4Q2JYTRGM",
+    "item_data": {
+      "name": "Cacteen Balancing Moisturizer 1.7oz",
+      "description": "<p>Skin type: normal/combination</p><p><br/></p><p>This moisturizer will balance surface lipids and water with the healing properties of Prickly Pear cactus and humectants like Sodium PCA. Bisabolol soothes irritated and sensitized skin.</p><ul><li>Normalizes water/oil balance</li><li>Soothes and calms</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use a small, pea-sized amount daily morning and evening to hydrate the skin.</li><li>Apply after cleansing and exfoliating/toning the skin.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-3IKRPTGZSRK56EF4Q2JYTRGM",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "KGHJ6NQJ4FAANY3UJIY3FCYH",
+    "item_data": {
+      "name": "Charcoal Clay Cleanser 2oz",
+      "description": "<p>Skin type: normal to oily</p><p><br/></p><p>This cleanser is infused with charcoal and kaolin clay to absorb environmental toxins. Kaolin clay absorbs sebum, removes impurities, and helps prevent clogged pores.</p><ul><li>Provides deep cleansing</li><li>Reduces oil</li><li>Detoxifying and purifying</li></ul><p><br/></p><p>Tips for use: </p><ul><li>This is a great primary cleanser to remove oil, makeup, dirt, and debris.</li><li>This product removes easily with warm water</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-KGHJ6NQJ4FAANY3UJIY3FCYH",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1250, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "Y2DN6ZZEDCAXFHJZTSDKY2CA",
+    "item_data": {
+      "name": "Charcoal Clay Cleanser 6.5oz",
+      "description": "<p>Skin type: normal to oily</p><p><br/></p><p>This cleanser is infused with charcoal and kaolin clay to absorb environmental toxins. Kaolin clay absorbs sebum, removes impurities, and helps prevent clogged pores.</p><ul><li>Provides deep cleansing</li><li>Reduces oil</li><li>Detoxifying and purifying</li></ul><p><br/></p><p>Tips for use: </p><ul><li>This is a great primary cleanser to remove oil, makeup, dirt, and debris.</li><li>This product removes easily with warm water</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-Y2DN6ZZEDCAXFHJZTSDKY2CA",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "KX2NX2Q5Z5GUW72IUYISGX7A",
+    "item_data": {
+      "name": "Circadia Acne Regimen Bundle",
+      "description": "<p><strong>Contents:</strong></p><p>1 – Mandelic Acid Cleansing Gel 2oz.</p><p>1 – Spot Stop 0.5oz.</p><p>1 – White Willow &amp; Juniper 4oz.</p><p>1 – Daytime Control 2oz.</p><p>1 – Blue Zipper Retail Bag</p>",
+      "category_id": "Skincare Bundles",
+      "seo_title": "Skincare Bundles",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-KX2NX2Q5Z5GUW72IUYISGX7A",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 8000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "JAOPP2CI4L7XIWQ7ACAVV23D",
+    "item_data": {
+      "name": "Circadia Aloe & Calendula Calming Mist 4 oz",
+      "description": "A soothing blend of aloe, calendula, elderflower, rose and seawhip extracts to help calm the discomfort associated with Rosacea and sensitive skin.",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-JAOPP2CI4L7XIWQ7ACAVV23D",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3281, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OKAQBYQ7A4H6OBMU3RCYAABY",
+    "item_data": {
+      "name": "Circadia Amandola Milk Cleanser 6.7 oz",
+      "description": "Skin type: hyperpigmentation and aged skin\n\nThis conditioning almond milk cleanser contains Lactic and Mandelic Acids that gently exfoliate, hydrate and brighten damaged skin",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-OKAQBYQ7A4H6OBMU3RCYAABY",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TTMTZD46GKIQLLOB76HSU3MI",
+    "item_data": {
+      "name": "Circadia AquaPorin Hydrating Cream 1.7 oz",
+      "description": "Skin type: Dry, dull, rough, chalky, flaking, mildly irritated.\n\nHydrate with natural oils to maintain and increase skin moisture. With the most effective hydrating agents, this amazing cream leaves skin feeling soft and healthy.",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-TTMTZD46GKIQLLOB76HSU3MI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 7219, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IXSJQGDYO7PTHPFHU23EBMO3",
+    "item_data": {
+      "name": "Circadia Blue Bamboo Exfoliator for Body 6.7 oz",
+      "description": "Skin type: All, especially coarse or rough patches\n\nThis exotic body scrub lathers into a creamy luxurious foam containing natural blueberry seeds and bamboo to gently exfoliate, remove impurities and cleanse.",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-IXSJQGDYO7PTHPFHU23EBMO3",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "UIXKYT7XCBKME2TKKJVTPGOZ",
+    "item_data": {
+      "name": "Circadia Blueberry & White Tea Hydrating Mist 4 oz",
+      "description": "Hydrate and nourish while protecting skin with a complex of potent antioxidants. Rejuvenate throughout the day with this refreshing mist.",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-UIXKYT7XCBKME2TKKJVTPGOZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3806, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "BDGX2HJEZRWN2TMUGHM35FP2",
+    "item_data": {
+      "name": "Circadia Cleansing Gel with Mandelic Acid 6.7 oz",
+      "description": "Skin type: All skin types, but it is particularly beneficial for individuals with acne-prone skin, and those who have hyperpigmentation concerns.\n\nAn active foaming cleanser that brightens and exfoliates while targeting pigmentation, acne, and aging skin. Our powerful alpha-hydroxy-acid and antibacterial properties make the Cleansing Gel with Mandelic Acid the perfect solution for nearly all skin types.",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-BDGX2HJEZRWN2TMUGHM35FP2",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "2623RKO7ND7FZVV2N5TIGCD3",
+    "item_data": {
+      "name": "Circadia Cleansing Gel with Salicylic Acid 6.7 oz",
+      "description": "Skin type: Grade 3 Acne, blackheads, comodones and blemishes\n\nThis light cleansing gel lathers into a creamy foam that deep cleans, while beta-hydroxy salicylic acid helps to soften and exfoliate.",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-2623RKO7ND7FZVV2N5TIGCD3",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "YY5GFHWZ2WET5GOW2HQTA6RK",
+    "item_data": {
+      "name": "Circadia Hydralox Facial Oil 0.5oz",
+      "description": "Skin type: Dry, chapped, or wind-burned\n\nCreate a supple sheen as you lock in critical moisture and reduce water loss. This power-boosting weapon can be added to other Circadia products to yield tremendous results.",
+      "category_id": "Facial Oil",
+      "seo_title": "Facial Oil",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-YY5GFHWZ2WET5GOW2HQTA6RK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3806, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "WG6ENPQDFDWSX23ENXBS45HZ",
+    "item_data": {
+      "name": "Circadia Light Day Sunscreen Broad Spectrum SPF 37 – 2 oz",
+      "description": "Skin type: all skin types \n\nOur environment requires daily protection with new levels of performance. Award winning photo stabilizer Solastay® S1 reduces sensitivity issues often associated with UV absorbers. New age antioxidants Lipochroman-6 (TM) and Preventhelia (TM) prevent damage to DNA proteins caused by UV exposure. This light lotion contains grape stem cell culture extract to enhance photo protection and delay cell senescence. Fast absorbing with an elegant feel, this is designed for daily use.",
+      "category_id": "Sunscreen",
+      "seo_title": "Sunscreen",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "N",
+      "variations": [
+        {
+          "id": "var-WG6ENPQDFDWSX23ENXBS45HZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "BBRUC2VZOPRC3GOHG5PGKXMI",
+    "item_data": {
+      "name": "Circadia Lipid Replacing Cleansing Gel 6.7 oz",
+      "description": "Skin type: Most types, especially normal or slightly oily.\n\nThis revitalizing cleanser effectively removes dirt, makeup and excess lipids without damaging the skin barrier.",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-BBRUC2VZOPRC3GOHG5PGKXMI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "YQNSPH7C34RS3Z4Y27UYL4DE",
+    "item_data": {
+      "name": "Circadia Micro-Exfoliating Honey Cleanser 6.7 oz",
+      "description": "Skin type: All skin types, especially those that are more oily or require additional exfoliation.\n\nMicro-beads of natural beeswax gently cleanse and exfoliate, while absorbing excess oil. Leaves all skin types feeling fresh and revitalized.",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-YQNSPH7C34RS3Z4Y27UYL4DE",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "54TVX3L6BACGJCUM34BXMWUP",
+    "item_data": {
+      "name": "Citrus-C Nourishing Cream 1oz",
+      "description": "<p>Skin type: normal to dry/anti-aging care</p><p><br/></p><p>This robust creamy Vitamin C is hydrating and gentle. The 5% Vitamin C (BVOSC – Tetrahexyldecyl Ascorbate) is a stable oil-soluble form of Vitamin C that offers UV protection, assists with skin lightening, and improves collagen synthesis. The 2% Citrustem™ originates from orange stem cells and will help densify the dermis by improving the extracellular matrix. The white and green tea complexes improve skin immunity and help repair damaged tissues. Stable antioxidants inhibit melanogenesis to reduce pigmentation. Cellynkage™ enhances cell-to-cell communication and enhances the efficacy of Vitamin C. MossCelltec™ improves the skin’s ability to hold moisture as it strengthens skin resiliency.</p><ul><li>Lessens the appearance of wrinkles</li><li>Encourages fibroblast activity</li><li>Brightens and tones the skin</li><li>Antioxidant</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply in the morning after toning.</li><li>Apply moisturizer on top.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-54TVX3L6BACGJCUM34BXMWUP",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4800, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "ZH3SVXMZM7EPNDO44EEDDDAF",
+    "item_data": {
+      "name": "Clarifying Toner Pads 2oz",
+      "description": "<p>Skin types: oily and acneic</p><p><br/></p><p>Clarifying Toner Pads use purifying active ingredients to relieve breakouts while improving the clarity and quality of the skin.</p><ul><li>Reduces congestion</li><li>Reduces oil production</li><li>Provides antibacterial-like properties</li><li>Soothes cystic breakouts</li><li>Enhances cellular turnover</li></ul><p><br/></p><p>Tips for use: </p><ul><li>For acneic skin, use the Clarifying Toner Pads after cleansing 2 – 3 times per week, and adjust the frequency up or down based on the number of breakouts.</li><li>For oily skin, use the Clarifying Toner Pads daily to dissolve the excess oil. If skin feels dry and flaky, reduce usage to 2 – 3 times per week to keep receiving the benefits without too much drying effect.</li><li>Do not remove the product; allow it to remain on the skin.</li><li>Avoid getting into the eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5), Exfoliants (755RWOQD2JIY46E6JDU7ZOKG)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-ZH3SVXMZM7EPNDO44EEDDDAF",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "6ID3Y3RX6LOW42BVO32SQYK7",
+    "item_data": {
+      "name": "Cucumber Hydration Toner 2oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Cucumber Hydration Toner rehydrates the skin while improving cellular functions and absorption of ingredients. The cucumber soothes and cools irritated skin.</p><ul><li>Reduces discomfort and irritation</li><li>Balances surface lipids</li><li>Assists in boosting hydration levels</li><li>Provides probiotic support to the skin’s acid mantle to support acneic skin</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use morning and evening after cleansing and exfoliating the skin.</li><li>Spritz the toner on the skin or apply it with a cotton round.</li></ul><p><br/></p>",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD), Toners (WBPIFAUSNHTVHISR5PHXWJ6W)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-6ID3Y3RX6LOW42BVO32SQYK7",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "WSB4JBQAXRCUEDUT4HONRG5B",
+    "item_data": {
+      "name": "Cucumber Hydration Toner 3.3oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Cucumber Hydration Toner rehydrates the skin while improving cellular functions and absorption of ingredients. The cucumber soothes and cools irritated skin.</p><ul><li>Reduces discomfort and irritation</li><li>Balances surface lipids</li><li>Assists in boosting hydration levels</li><li>Provides probiotic support to the skin’s acid mantle to support acneic skin</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use morning and evening after cleansing and exfoliating the skin.</li><li>Spritz the toner on the skin or apply it with a cotton round.</li></ul><p><br/></p>",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD), Toners (WBPIFAUSNHTVHISR5PHXWJ6W)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-WSB4JBQAXRCUEDUT4HONRG5B",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GSTPWHTQTNE6SY7TJJO4QTDW",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "Choose between 3 membership packages and save on your monthly treatments. One-hour facials using professional products. The service includes a double cleanse, skin analysis, exfoliation, extractions, facial massage, neck and decolette massage, mask, and finishing products. One free enhancement add on included of your choice.",
+      "category_id": "",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-GSTPWHTQTNE6SY7TJJO4QTDW",
+          "item_variation_data": {
+            "name": "2 Customized Facials",
+            "price_money": { "amount": 13000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DFZBGTFU3E563RGTE42FKCYT",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "3 Customized Facials",
+      "category_id": "",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "",
+      "variations": [
+        {
+          "id": "var-DFZBGTFU3E563RGTE42FKCYT",
+          "item_variation_data": {
+            "name": "3 Customized Facials",
+            "price_money": { "amount": 18000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "5DA7BAW5YTYSWO2X3EP5COCA",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "4 Customized Facials",
+      "category_id": "",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "unavailable",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "",
+      "variations": [
+        {
+          "id": "var-5DA7BAW5YTYSWO2X3EP5COCA",
+          "item_variation_data": {
+            "name": "4 Customized Facials",
+            "price_money": { "amount": 25000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OGVUASZWND4WN2GIZSLPCWKD",
+    "item_data": {
+      "name": "Glycolic Cleanser 2oz",
+      "description": "<p>Skin type: acne, aging</p><p><br/></p><p>The Glycolic Cleanser is a foamy cleanser infused with a combination of alpha hydroxy acids. It renews the skin by removing the uppermost layer of dead skin cells to reveal a bright, smooth skin surface.</p><ul><li>Refines and renews skin</li><li>Lessens the appearance of wrinkles</li><li>Brightens and invigorates skin</li><li>Lessens the appearance of acne scars</li><li>Enhances cellular turnover</li></ul><p><br/></p><p>Tips for use:</p><ul><li>For normal or combination skin with closed comedones: Use the Green Tea Citrus Cleanser morning and the Glycolic Cleanser as a second cleanser every day, once a day, for up to 10 days. Once you have achieved significant results on the closed comedones, back down the usage to 2 – 3 times per week.</li><li>For normal, dry, or aging skin: Use the Pomegranate Antioxidant Cleanser morning and night and the Glycolic Cleanser 2 – 3 times per week to exfoliate.</li><li>Leave the cleanser on the skin for 30 – 45 seconds for best results. Remove completely with water.</li><li>The Glycolic Cleanser is not designed to be a primary cleanser or a makeup remover and should not be used over the eyes.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-OGVUASZWND4WN2GIZSLPCWKD",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "6K5747QFX4CIZEF7JGFVDGIW",
+    "item_data": {
+      "name": "Glycolic Cleanser 6.5oz",
+      "description": "<p>Skin type: acne, aging</p><p><br/></p><p>The Glycolic Cleanser is a foamy cleanser infused with a combination of alpha hydroxy acids. It renews the skin by removing the uppermost layer of dead skin cells to reveal a bright, smooth skin surface.</p><ul><li>Refines and renews skin</li><li>Lessens the appearance of wrinkles</li><li>Brightens and invigorates skin</li><li>Lessens the appearance of acne scars</li><li>Enhances cellular turnover</li></ul><p><br/></p><p>Tips for use:</p><ul><li>For normal or combination skin with closed comedones: Use the Green Tea Citrus Cleanser morning and the Glycolic Cleanser as a second cleanser every day, once a day, for up to 10 days. Once you have achieved significant results on the closed comedones, back down the usage to 2 – 3 times per week.</li><li>For normal, dry, or aging skin: Use the Pomegranate Antioxidant Cleanser morning and night and the Glycolic Cleanser 2 – 3 times per week to exfoliate.</li><li>Leave the cleanser on the skin for 30 – 45 seconds for best results. Remove completely with water.</li><li>The Glycolic Cleanser is not designed to be a primary cleanser or a makeup remover and should not be used over the eyes.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-6K5747QFX4CIZEF7JGFVDGIW",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "QHLSTBDL6HXGR7D4P3ZF4SXL",
+    "item_data": {
+      "name": "Glycolic and Retinol Pads 2oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>Glycolic &amp; Retinol Pads are designed to gently and progressively renew the skin to provide brightening, clarifying, and restoring benefits to all skin types in need of perfecting.</p><ul><li>Reduces the appearance of pigmentation spots</li><li>Assists with surface renewal and resurfacing</li><li>Lessens future breakouts</li><li>Assists in anti-wrinkle actions</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use the Glycolic &amp; Retinol Pads 2 – 3 times per week for pore refinement or acneic skin. For best penetration of this product, use with the Glycolic Cleanser and/or Retinol 2% Exfoliating Scrub/Mask.</li><li>For hyperpigmentation or melasma, use daily morning and evening to spot treat, applying only to pigmented areas. Reduce frequency after pigmentation has lightened.</li><li>Do not rinse; let the product stay on the skin.</li><li>Avoid getting into eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5), Exfoliants (755RWOQD2JIY46E6JDU7ZOKG)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-QHLSTBDL6HXGR7D4P3ZF4SXL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "U437CHRR2YISRRYGVSH2I6SK",
+    "item_data": {
+      "name": "Green Tea Citrus Cleanser 2oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Green Tea Citrus Cleanser is a foamy, gentle cleansing option for environmentally challenged skin. It works well to remove makeup and protects the skin from cellular damage while improving clarity and tone.</p><ul><li>Clarifies and soothes</li><li>Supports skin immune functions</li><li>Maintains healthy cell function</li><li>Provides cellular protection from free radicals</li></ul><p><br/></p><p>Tips for use: This is a great primary cleanser to remove oil, makeup, dirt, and debris.</p><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-U437CHRR2YISRRYGVSH2I6SK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DY6UFXEPQBUY46XWEPNXZIIG",
+    "item_data": {
+      "name": "Green Tea Citrus Cleanser 6.5oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Green Tea Citrus Cleanser is a foamy, gentle cleansing option for environmentally challenged skin. It works well to remove makeup and protects the skin from cellular damage while improving clarity and tone.</p><ul><li>Clarifies and soothes</li><li>Supports skin immune functions</li><li>Maintains healthy cell function</li><li>Provides cellular protection from free radicals</li></ul><p><br/></p><p>Tips for use: This is a great primary cleanser to remove oil, makeup, dirt, and debris.</p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-DY6UFXEPQBUY46XWEPNXZIIG",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "VIQ25MQHMPQJJXO7NUCXUPSR",
+    "item_data": {
+      "name": "Honey Brightening Cleanser 2oz",
+      "description": "<p>Honey Brightening Cleanser helps to brighten the skin, address hyperpigmentation, strengthen the skin barrier, and enhance cellular turnover. It contains 2.5% mandelic and 2.5% lactic acid, which gently exfoliate the skin, and provides antibacterial, hydrating, and brightening benefits. Black BeeOme™ and Arizona mesquite honey help to restore the skin’s microflora and support the skin barrier. This lathery cleanser will help to address multiple skin concerns without stripping the skin, to clarify and improve skin tone.</p><ul><li>Brightens</li><li>Improves skin texture</li><li>Restores microbiome</li><li>Protects and strengthens the skin barrier</li><li>Enhances cellular turnover</li><li>Boosts hydration</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-VIQ25MQHMPQJJXO7NUCXUPSR",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "FZD44OC6MG5QPQC43L44Q4BQ",
+    "item_data": {
+      "name": "Honey Brightening Cleanser 6.4 oz",
+      "description": "<p>Skin type: </p><ul><li>Normal</li><li>Oily</li><li>Combination</li><li>Hyperpigmentation</li><li>Mild acne</li></ul><p><br/></p><p>Honey Brightening Cleanser helps to brighten the skin, address hyperpigmentation, strengthen the skin barrier, and enhance cellular turnover. It contains 2.5% mandelic and 2.5% lactic acid, which gently exfoliate the skin, and provides antibacterial, hydrating, and brightening benefits. Black BeeOme™ and Arizona mesquite honey help to restore the skin’s microflora and support the skin barrier. This lathery cleanser will help to address multiple skin concerns without stripping the skin, to clarify and improve skin tone.</p><p><br/></p><ul><li>Brightens</li><li>Improves skin texture</li><li>Restores microbiome</li><li>Protects and strengthens the skin barrier</li><li>Enhances cellular turnover</li><li>Boosts hydration</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use once a day to treat hyperpigmentation and reduce breakouts. Adjust frequency if dryness and/or sensitivity occurs.</li><li>Apply to dampened skin with fingertips in circular, massaging pattern, and rinse with a warm washcloth.</li></ul>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-FZD44OC6MG5QPQC43L44Q4BQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "EAMQSC2DYOYPD5FDN5EZDKN6",
+    "item_data": {
+      "name": "Hydrating Moisturizer 1.7oz",
+      "description": "<p>Skin type: dry/dehydrated</p><p><br/></p><p>A deeply nourishing moisturizer that is excellent for dry skin. Improves the appearance of wrinkles, binds moisture to the skin, soothes, calms, and strengthens capillaries.</p><ul><li>Soothes irritated and chapped skin</li><li>Improves skin hydration to limit visible lines</li><li>Protects from environmental damage</li><li>Improves skin function</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use a small, pea-sized amount daily morning and evening to hydrate the skin.</li><li>Apply after cleansing and exfoliating/toning the skin.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-EAMQSC2DYOYPD5FDN5EZDKN6",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "N27CJBFKE4FFIRH7WHCIIM34",
+    "item_data": {
+      "name": "Light Aloe Moisturizer 2oz",
+      "description": "<p>Skin type: oily and acneic </p><p><br/></p><p>The Light Aloe Moisturizer normalizes and hydrates skin without leaving a heavy feel or film behind. Antioxidants and skin soothing agents in the moisturizer minimize irritation and environmental damage, resulting in clear, healthy skin.</p><ul><li>Encourages proper moisture levels</li><li>Normalizes water/oil balance</li><li>Soothes and calms</li><li>Improves skin appearance</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use a small, pea-sized amount daily morning and evening to hydrate the skin.</li><li>Apply after cleansing and exfoliating/toning the skin.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-N27CJBFKE4FFIRH7WHCIIM34",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TQGBQXCRE6SMYEI7ZM5PJHYM",
+    "item_data": {
+      "name": "Mandelic Brightening Serum 1oz",
+      "description": "<p>Mandelic Brightening Serum helps to reduce pigmentation, exfoliates, and helps reduce pores’ appearance. This dynamic serum contains BioFense and Dendriclear™ to support the skin’s microbiome, reduce sensitivity, and enhance barrier function. Niacinamide provides anti-inflammatory-like support as well as increases cellular energy. Azeloglicina® normalizes sebum and brightens the skin for a more balanced complexion.</p><ul><li>Brightens</li><li>Assists with surface renewal</li><li>Helps to regulate sebum</li><li>Lessens future breakouts</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-TQGBQXCRE6SMYEI7ZM5PJHYM",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "HQC3FI6DAT2IRIBFWRZVHVB6",
+    "item_data": {
+      "name": "Mint Refining Toner 2oz",
+      "description": "<p>Skin type: normal to oily/acneic</p><p><br/></p><p>This toner contains BioFense, a probiotic to normalize skin flora, reduce redness and minimize pores. This probiotic provides anti-microbial support, helps regulate the immune system, and enhances the skin’s barrier. DisaPore20 and lemongrass act as natural astringents to tighten pores for smooth, refreshed skin.</p><ul><li>Probiotic for skin flora</li><li>Helps minimize the appearance of pores</li><li>Normalizes the skin’s moisture content</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use morning and evening after cleansing.</li><li>Spritz the toner on the skin or apply it with a cotton round.</li></ul><p><br/></p>",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD), Toners (WBPIFAUSNHTVHISR5PHXWJ6W)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-HQC3FI6DAT2IRIBFWRZVHVB6",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "N7VX67SL7PEF3WEGAVVE4M4T",
+    "item_data": {
+      "name": "Mint Refining Toner 3.3oz",
+      "description": "This toner contains a probiotic to normalize skin flora, reduce redness and minimize pores. This probiotic provides anti-microbial support, helps regulate the immune system and enhance the skin’s barrier. DisaPore 20 and lemongrass act as natural astringents to tighten pores for smooth, refreshed ski\n\n-Probiotic for skin flora\n-Helps minimize the appearance of pores\n-Normalizes the skin’s moisture content\n-Normal to oily and acneic skin\n-Men and/or teen skin\n\nDirections for use: use morning and evening after cleansing the skin. Apply with cotton pad and wipe or spritz clean skin.",
+      "category_id": "Toners (HYBTG3UPYJGE5UJBURP7XEZD), Toners (WBPIFAUSNHTVHISR5PHXWJ6W)",
+      "seo_title": "Toners (HYBTG3UPYJGE5UJBURP7XEZD)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-N7VX67SL7PEF3WEGAVVE4M4T",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "EXNBYH2I4FURGRI4ZIITTLKZ",
+    "item_data": {
+      "name": "Peppermint Ageless Lip Treatment",
+      "description": "Hydrate, enhance and soothe.\n\nAgeless Lip Treatment is enriched with ingredients designed to repair and hydrate the lips. Maxi-Lip™ is a biomimetic peptide that enhances collagen synthesis for improved firmness and suppleness, while HydraSynol® plumps and boosts moisture.\n\nSold individually in either Pomegranate or Peppermint.\n\nEnhance the supple appearance and feel\nAntioxidant\nSoothes irritated and chapped lips\nPerfect addition to a facial treatment",
+      "category_id": "Lip Care (A7OD6WBRNCWLJ55ULDOONAIM), Lip Care (EVINZ5IOQE5QUD6UDZJZIBRN)",
+      "seo_title": "Lip Care (A7OD6WBRNCWLJ55ULDOONAIM)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-EXNBYH2I4FURGRI4ZIITTLKZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IJ7DIT4IQHOIQH4WQK52ZNXI",
+    "item_data": {
+      "name": "Peptide Eye Serum",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Peptide Eye Serum alleviates dark under-eye circles by utilizing the peptides Eyeliss and Haloxyl. Opens the eye zone for a refreshed, youthful appearance. It brightens the appearance of discolorations, reduces the appearance of wrinkles, stimulates circulation, and improves tissue strength while encouraging healthy cellular skin functions.</p><ul><li>Alleviates dark under-eye circles</li><li>Encourages proper moisture levels</li><li>Plumps eye tissue</li><li>Soothes and calms</li><li>Firms and tightens</li><li>Lessens the appearance of wrinkles</li><li>Improves circulation</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use morning and evening regularly for up to 50% improvement in dark circles.</li><li>To apply, pat lightly on the eye area and allow it to penetrate the skin.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-IJ7DIT4IQHOIQH4WQK52ZNXI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OPTKPOXPQS66O5BPLPNH4YTN",
+    "item_data": {
+      "name": "Peptide Restoration Moisturizer 1.7oz",
+      "description": "<p>Skin type: normal to dry/mature skin</p><p><br/></p><p>This superior anti-aging moisturizer is where luxury meets science. This unique formulation contains ReproAge™, ChroNOline, and rH oligopeptide-1 (EGF) to accelerate the growth of epidermal cells, activate skin repair, and reduce wrinkle depth. It is a medium-weight moisturizer that stimulates fibroblast production and nourishes the skin with alpha lipoic acid, squalane, and shea butter.</p><ul><li>Anti-aging properties</li><li>Accelerates growth of epidermal cells</li><li>Improves texture</li><li>Antioxidant</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use a small, pea-sized amount daily morning and evening to hydrate the skin.</li><li>Apply after cleansing and exfoliating/toning the skin.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU), Moisturizers (25QTGWUHQDCYAHEXKJP7IH6F)",
+      "seo_title": "Moisturizers (CLILOHJKBUU4ZJZ4OXNRQEUU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-OPTKPOXPQS66O5BPLPNH4YTN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "VNPXYFH4UV4ZZCETTZ3CKNCJ",
+    "item_data": {
+      "name": "Pomegranate Ageless Lip Treatment",
+      "description": "Hydrate, enhance and soothe.\n\nAgeless Lip Treatment is enriched with ingredients designed to repair and hydrate the lips. Maxi-Lip™ is a biomimetic peptide that enhances collagen synthesis for improved firmness and suppleness, while HydraSynol® plumps and boosts moisture.\n\nSold individually in either Pomegranate or Peppermint.\n\nEnhance the supple appearance and feel\nAntioxidant\nSoothes irritated and chapped lips\nPerfect addition to a facial treatment",
+      "category_id": "Lip Care (A7OD6WBRNCWLJ55ULDOONAIM), Lip Care (EVINZ5IOQE5QUD6UDZJZIBRN)",
+      "seo_title": "Lip Care (A7OD6WBRNCWLJ55ULDOONAIM)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-VNPXYFH4UV4ZZCETTZ3CKNCJ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "CJJG4LERLOQ4QJU6LSSUYIDD",
+    "item_data": {
+      "name": "Pomegranate Antioxidant Cleanser 2oz",
+      "description": "<p>Skin type: normal to dry, rosacea, sensitive </p><p><br/></p><p>The Pomegranate Antioxidant Cleanser is a moderately rich cream-based cleansing option that is infused with a wide array of antioxidants, nutritional elements, and oils to restore and protect the skin.</p><ul><li>Soothes skin irritation</li><li>Provides calming benefits</li><li>Reduces the appearance of redness</li><li>Assists in boosting hydration levels</li><li>Enhances cellular turnover</li></ul><p><br/></p><p>Tips for use:</p><ul><li>This is a great primary cleanser to remove oil, makeup, dirt, and debris.</li><li>Massage the cleanser into the skin with your fingertips and remove it with a warm, wet washcloth to thoroughly cleanse the skin.</li><li>To remove eye makeup during a facial, put the cleanser on cotton rounds and put the rounds over the eyes. Wait a few minutes and wipe off the eye makeup.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-CJJG4LERLOQ4QJU6LSSUYIDD",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1250, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GSC6ZSDVJJZQEHQQJQIXVTDL",
+    "item_data": {
+      "name": "Pomegranate Antioxidant Cleanser 6.5oz",
+      "description": "<p>Skin type: normal to dry, rosacea, sensitive</p><p><br/></p><p>The Pomegranate Antioxidant Cleanser is a moderately rich cream-based cleansing option that is infused with a wide array of antioxidants, nutritional elements, and oils to restore and protect the skin.</p><ul><li>Soothes skin irritation</li><li>Provides calming benefits</li><li>Reduces the appearance of redness</li><li>Assists in boosting hydration levels</li><li>Enhances cellular turnover</li></ul><p><br/></p><p>Tips for use:</p><ul><li>This is a great primary cleanser to remove oil, makeup, dirt, and debris.</li><li>Massage the cleanser into the skin with your fingertips and remove it with a warm, wet washcloth to thoroughly cleanse the skin.</li><li>To remove eye makeup during a facial, put the cleanser on cotton rounds and put the rounds over the eyes. Wait a few minutes and wipe off the eye makeup.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-GSC6ZSDVJJZQEHQQJQIXVTDL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "LZ4IP6KJTRY45Z6SAINXSF54",
+    "item_data": {
+      "name": "Raspberry Refining Cleanser 2oz",
+      "description": "<p>Skin type: oily and acneic </p><p><br/></p><p>The Raspberry Refining Cleanser is a unique foamy cleanser that rebalances and improves skin texture while its active ingredients purify and restore vitality to the skin.</p><ul><li>Resurfacing</li><li>Clarifies and exfoliates</li><li>Reduces oil and debris</li><li>Lessens future breakouts</li><li>Improves skin function</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use daily morning and night to thoroughly cleanse the skin and treat breakouts and skin impurities. It is also an excellent cleanser to maintain healthy clear skin.</li><li>Adjust frequency if dryness and/or sensitivity occurs.</li><li>Apply with fingertips in a circular, massaging pattern, and rinse with a warm washcloth.</li><li>The Raspberry Refining Cleanser is not designed to be a primary cleanser or a makeup remover and should not be used over the eyes.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-LZ4IP6KJTRY45Z6SAINXSF54",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "32RGZLVE2GWMUPGEAQ4QVVD5",
+    "item_data": {
+      "name": "Raspberry Refining Cleanser 6.5oz",
+      "description": "<p>Skin type: oily and acneic </p><p><br/></p><p>The Raspberry Refining Cleanser is a unique foamy cleanser that rebalances and improves skin texture while its active ingredients purify and restore vitality to the skin.</p><ul><li>Resurfacing</li><li>Clarifies and exfoliates</li><li>Reduces oil and debris</li><li>Lessens future breakouts</li><li>Improves skin function</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use daily morning and night to thoroughly cleanse the skin and treat breakouts and skin impurities. It is also an excellent cleanser to maintain healthy clear skin.</li><li>Adjust frequency if dryness and/or sensitivity occurs.</li><li>Apply with fingertips in a circular, massaging pattern, and rinse with a warm washcloth.</li><li>The Raspberry Refining Cleanser is not designed to be a primary cleanser or a makeup remover and should not be used over the eyes.</li><li>Avoid contact with eyes. Flush completely if contact occurs.</li><li>Always use sunscreen when using this product.</li></ul><p><br/></p>",
+      "category_id": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU), Cleansers (CVZC6M57CY3PFLBKNEXMEGJI)",
+      "seo_title": "Cleansers (PPHB3RRMRKUIHJOTFZQOSYQU)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-32RGZLVE2GWMUPGEAQ4QVVD5",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "B3WKWKXGRI5CZ7TVVKLLLDJX",
+    "item_data": {
+      "name": "Raspberry Refining Scrub 4oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Raspberry Refining Scrub polishes and energizes the skin with the antioxidants raspberry and marionberry, which brighten skin and soothe skin irritations. Jojoba beads and blue corn meal gently exfoliate to remove surface build-up and provide physical exfoliation while exfoliating and brightening ingredients work in tandem to promote a clear, healthy skin tone.</p><ul><li>Polishes and refines</li><li>Brightens skin</li><li>Provides calming benefits</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Use 2 – 3 times per week in the morning or evening.</li><li>Gently massage into the skin for 2 – 3 minutes.</li><li>Avoid getting into the eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5), Exfoliants (755RWOQD2JIY46E6JDU7ZOKG)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-B3WKWKXGRI5CZ7TVVKLLLDJX",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "CT7FXE6CBZ7XOWRSPZBSTXXQ",
+    "item_data": {
+      "name": "Retinaldehyde Serum with IconicA 1oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>This ultimate anti-aging serum reduces fine lines and wrinkles. It promotes a general overall smoothness and evenness of skin tone.</p><p>IconicA® was developed with the cornerstone and most future-forward Retinoid technology available, the patented stabilized Retinaldehyde. It performs closest to Retinoic Acid pharmaceutical-grade products, without a prescription. It provides actives that brighten and works to help ward off free-radical exposure as a critical anti-oxidant, vastly improving the complexion of the skin.</p><ul><li>Ultimate anti-aging and rejuvenating serum</li><li>Brightens and tones the tissue</li><li>Encourages fibroblast activity and lessens the appearance of wrinkles</li><li>Antioxidant</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply in the evening after cleansing and toning. Apply moisturizer on top.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-CT7FXE6CBZ7XOWRSPZBSTXXQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 6600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "4PRYUQQTH4QF2WQAKXHFNN3W",
+    "item_data": {
+      "name": "Retinol 2% Exfoliating Scrub/Mask 1.7oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Retinol 2% Exfoliating Scrub/Mask exfoliates while brightening to promote a clear, healthy skin tone.</p><ul><li>Resurfaces and refines the skin</li><li>Lessens visible aging</li><li>Provides chemical and physical exfoliation</li><li>Enhances cellular turnover</li><li>Brightens skin</li><li>Assists in skin rejuvenation</li></ul><p><br/></p><p>Tips for use:</p><ul><li>For most skin types, use this product with the Glycolic Cleanser 2 – 3 times per week. The Glycolic Cleanser breaks up the dead, keratinized skin, and the Retinol 2% Exfoliating Scrub/Mask polishes off the dead skin. The retinol also starts desquamating the follicle lining so impactions can purge.</li><li>For sensitive skin or rosacea, use this product with the Green Tea Citrus Cleanser 2 – 3 times per week.</li><li>For use as a mask, apply a thin layer and allow the actives to penetrate the skin for 5 – 10 minutes.</li><li>Can be used as an at-home exfoliation mask.</li><li>Add a minimal amount of water and rub gently in circular motions—no rough scrubbing. Then remove completely with water.</li><li>Avoid getting into the eyes. Flush completely if contact occurs.</li></ul><p><br/></p>",
+      "category_id": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5), Exfoliants (755RWOQD2JIY46E6JDU7ZOKG)",
+      "seo_title": "Exfoliants (KM3YXNYXVWDIBAXWW772GXF5)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-4PRYUQQTH4QF2WQAKXHFNN3W",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TCNMQU5YXRGAG22TH27RWFEN",
+    "item_data": {
+      "name": "Revitalizing Cucumber Treatment",
+      "description": "<p>Revitalizing Cucumber Treatment is designed to exfoliate, hydrate, and gently revitalize.</p><p>This treatment delivers immediate results with botanical extracts—including cucumber fruit, aloe vera, green tea, and wakame—that provide vitamins and minerals to support healthy-looking skin.</p><p>Perfect for all skin types, especially sensitive or dehydrated skin and those concerned with skin texture, this enzymatic treatment gently exfoliates the skin, revealing a softer, smoother complexion.</p><p><br/></p><p><br/></p><p><strong><u>Key Points</u></strong></p><ul><li>Defends against free radicals</li><li>Increases hydration</li><li>Improves texture</li></ul><p><br/></p><p><br/></p><p><strong><u>How to Use</u></strong></p><p>Leave on the skin to penetrate for 5-10 minutes.</p><p>Best paired with our Botanical Bloom Hydrating Mask.</p><p>May cause a slight tingling sensation.</p><p><br/></p><p><br/></p><p><strong><u>Key Ingredients</u></strong></p><p><strong>Cucumis Sativus (Cucumber) Fruit Extract</strong> is a soothing anti-inflammatory ingredient packed with vitamins and enzymes making it a potent antioxidant to protect this skin from oxidative stress. It also refreshes and hydrates the skin.</p><p><strong>Papain</strong> is an enzyme derived from papaya that digests keratin protein to help accelerate exfoliation. It is anti-inflammatory and antioxidant, rich in vitamin C, vitamin E and beta-carotene.</p><p><strong>EGCG (Epigallocatechin Gallate)</strong> is a powerful antioxidant (polyphenol) found in green tea to protect skin from cellular damage and neutralize free radicals. They also can inhibit destructive bacteria to manage acne breakouts.</p><p><strong>Undaria Pinnatifida (Wakame) Extract</strong> is a species of seaweed that defends against environmental stress, supports skin regeneration and hydration.</p><p><strong>Aloe Vera Leaf Juice</strong> Improves hydration and is anti-inflammatory; very healing and soothing to the skin.</p><p><strong>L-Alpha Bisabolol</strong> – Increases skin hydration, surface lipid, elasticity and barrier function and decreases transepidermal water loss.</p><p><br/></p><p><br/></p><p><strong><u>Formula Composition</u></strong></p><p><em>Aqua (Water), Polysorbate 20, Propanediol, Glycerin, Carbomer, Glucamine, Papain, Undaria Pinnatifida (Wakame) Extract, Cucumis Sativus (Cucumber) Fruit Extract, Epigallocatechin Gallate, Sodium PCA, Aloe Barbadensis Leaf Juice Powder, Bisabolol (L-alpha), Moringa Oleifera Seed Oil, Algin, Curcuma Longa (Turmeric) Root Extract, Melia Azadirachta (Neem) Flower Extract, Melia Azadirachta (Neem) Leaf Extract, Commiphora Myrrha Oil, Hydroxyethylcellulose, Corallina Officinalis Extract, Coccinia Indica Fruit Extract, Melia Azadirachta Bark Extract, Solanum Melongena (Eggplant) Fruit Extract, Aloe Barbadensis Flower Extract, Ocimum Sanctum Leaf Extract, Ocimum Basilicum (Basil) Flower/Leaf Extract, Hamamelis Virginiana (Witch Hazel) Water, 1,2-Hexanediol, Caprylyl Glycol, O-cymen-5-OL, Ethylhexylglycerin, Citric Acid, Sodium Hydroxide, Alcohol, Trisodium Ethylenediamine Disuccinate, Phenoxyethanol, Fragrance/Parfum</em></p><p><br/></p><p><br/></p>",
+      "category_id": "Masks",
+      "seo_title": "Masks",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-TCNMQU5YXRGAG22TH27RWFEN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GKFGRYB2BPCGJMH5Y5L6A3XL",
+    "item_data": {
+      "name": "SKINSCRIPT MINIMALIST KIT",
+      "description": "The Minimalist Kit is designed to help absorb oils and toxins from the skin without over-drying. This trio will minimize pores, calm the skin, and seal in water to balance surface lipids.\n\nThe Charcoal Clay Cleanser will help absorb oil and toxins from the skin with a gentle foamy cleanse without over-drying the skin.\nThe Mint Refining Toner will minimize pores and calm the skin.\nThe Light Aloe Moisturizer, even for oily skin, is needed to seal in water to balance surface lipids.\nEach product is a 2 oz size.",
+      "category_id": "",
+      "seo_title": "",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-GKFGRYB2BPCGJMH5Y5L6A3XL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4050, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "QE4H6YA7EKJII6MYC3EZGGTN",
+    "item_data": {
+      "name": "Sheer Protection SPF 30",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Sheer Protection SPF 30 is a light cream, natural sunblock with 13.5% zinc oxide that offers broad-spectrum physical protection from UVA and UVB exposure.</p><ul><li>Ideal for daily wear</li><li>Reef safe</li><li>Protects from blue light damage</li></ul><p><br/></p><p>Tips for use: </p><ul><li>Apply at least 30 minutes before sun exposure. Reapply every 2 hours.</li><li>This product is not sweat proof, waterproof or water resistant.</li></ul><p><br/></p><p><br/></p>",
+      "category_id": "Sunscreen, SPF",
+      "seo_title": "Sunscreen",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-QE4H6YA7EKJII6MYC3EZGGTN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "27NK3X74EU4YBYXEFFXZPOCN",
+    "item_data": {
+      "name": "Tri-Peptide Eye Cream",
+      "description": "<p>Skin type: normal to dry skin</p><p><br/></p><p>The Tri-Peptide Eye Cream contains three peptides to restore and rejuvenate the delicate under eye area, specifically addressing concerns due to excessive blue light exposure such as cell phones and computers. The three peptides Synchrolife™, Eyeseryl®, and Syn®-Coll work harmoniously to reduce under-eye puffiness, the appearance of expression wrinkles, and to counteract the harmful degradation resulting from digital pollution such as cell phone and computer usage. Through consistent use, the under eyes appear more hydrated and the overall skin health is restored.</p><ul><li>Counteracts digital pollution</li><li>Firms and tightens</li><li>Lessens the appearance of wrinkles</li><li>Prevents water loss from the skin</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Use morning and evening.</li><li>To apply, pat lightly on the eye area and allow it to penetrate the skin.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-27NK3X74EU4YBYXEFFXZPOCN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DM522QGKUNOSBU55JS4ZGSRQ",
+    "item_data": {
+      "name": "Vitamin C/Green Tea Serum 1oz",
+      "description": "<p>Skin type: all skin types</p><p><br/></p><p>The Vitamin C Green Tea Serum restores and revitalizes the skin with antioxidants and peptides. It nourishes and supplements the skin with moisture and vitamins for ultimate results. The L-ascorbic acid is encapsulated to enhance bioavailability and stability.</p><ul><li>Lessens the appearance of wrinkles</li><li>Encourages fibroblast activity</li><li>Brightens and tones the tissue</li><li>Antioxidant</li></ul><p><br/></p><p>Tips for use:</p><ul><li>Apply in the morning after toning. Apply moisturizer on top.</li><li>You can mix the Vitamin C Green Tea Serum with the Ageless Skin Hydrating Serum and apply it in one step.</li></ul><p><br/></p>",
+      "category_id": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP), Serums (ZP6APGRP6MVEI6P7WSBTNBQI)",
+      "seo_title": "Serums (CW5YBIPSCOGAYZJ2ZSAAFQKP)",
+      "seo_description": "",
+      "permalink": "",
+      "gtin": "",
+      "visibility": "visible",
+      "item_type": "Physical good",
+      "weight": "",
+      "shipping_enabled": "Y",
+      "variations": [
+        {
+          "id": "var-DM522QGKUNOSBU55JS4ZGSRQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  }
+];

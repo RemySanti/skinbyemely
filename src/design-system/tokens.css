@@ -1,0 +1,55 @@
+:root {
+  /* ---------- Espresso Editorial ---------- */
+
+  /* Dark surfaces */
+  --espresso: #1f160f;       /* deepest dark */
+  --mocha: #2a1f17;          /* primary dark surface */
+  --bark: #3a2c1f;           /* lifted dark surface */
+  --umber: #4d3c2c;
+
+  /* Mid panels (warm taupes) */
+  --clay: #8a6f56;
+  --clay-light: #a89074;
+  --clay-soft: rgba(138, 111, 86, 0.12);
+
+  /* Light surfaces */
+  --linen: #faf6ee;
+  --ivory: #f5efe5;
+  --cream: #efe5d4;
+  --bone: #e5dbc7;
+  --sand: #d8cbb1;
+
+  /* Accent — warm metallic */
+  --gold: #c8a877;
+  --gold-deep: #a88955;
+  --gold-soft: rgba(200, 168, 119, 0.15);
+
+  /* Text on light */
+  --ink: #2a1f17;
+  --ink-soft: #5a4a3a;
+  --ink-muted: rgba(42, 31, 23, 0.6);
+  --ink-dim: rgba(42, 31, 23, 0.4);
+
+  /* Text on dark */
+  --light: #efe5d4;
+  --light-soft: rgba(239, 229, 212, 0.7);
+  --light-dim: rgba(239, 229, 212, 0.45);
+
+  /* Glass tokens */
+  --glass-light: rgba(255, 255, 255, 0.55);
+  --glass-light-border: rgba(42, 31, 23, 0.08);
+  --glass-dark: rgba(255, 255, 255, 0.04);
+  --glass-dark-border: rgba(255, 255, 255, 0.08);
+
+  /* Backwards-compat aliases */
+  --black: var(--mocha);
+  --near-black: var(--bark);
+  --dark: var(--mocha);
+  --sage: var(--gold-deep);
+  --sage-deep: var(--gold-deep);
+  --sage-light: var(--gold);
+  --sage-muted: var(--gold-soft);
+  --text-primary: var(--ink);
+  --text-muted: var(--ink-muted);
+  --text-dim: var(--ink-dim);
+}

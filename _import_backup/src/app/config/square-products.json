@@ -1,0 +1,1022 @@
+[
+  {
+    "type": "ITEM",
+    "id": "UHD4VOVAZDRHI6E4US65CJMZ",
+    "item_data": {
+      "name": "60 Minute Customized Facial 3 PKG",
+      "description": "",
+      "variations": [
+        {
+          "id": "var-UHD4VOVAZDRHI6E4US65CJMZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 25500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "UVU6DLDJ5DBOEQXTDNU6LL6Q",
+    "item_data": {
+      "name": "90 Minute Customized Facial 3 PKG",
+      "description": "",
+      "variations": [
+        {
+          "id": "var-UVU6DLDJ5DBOEQXTDNU6LL6Q",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 36000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "JY6Q72ETQSAZL5Y7F6PGKU2O",
+    "item_data": {
+      "name": "Acai Berry Moisturizer 1.7oz",
+      "description": "<p>The antioxidant-packed Acai Berry Moisturizer provides hydration and protects from environmental damage while relieving the surface signs of aging.</p>",
+      "variations": [
+        {
+          "id": "var-JY6Q72ETQSAZL5Y7F6PGKU2O",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3700, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "73DPJFPG4EHICC567QRBYTTK",
+    "item_data": {
+      "name": "Ageless Hydrating Serum 1oz",
+      "description": "<p>The Ageless Skin Hydrating Serum restores moisture to maintain skin barrier function, improve hydration, lessen the appearance of wrinkles, improve the health of cell membranes, and plump the skin.</p>",
+      "variations": [
+        {
+          "id": "var-73DPJFPG4EHICC567QRBYTTK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "FXNKITA76HOR43TF2KEQ4RJJ",
+    "item_data": {
+      "name": "Ageless Skin Moisturizer 2oz",
+      "description": "<p>Ageless Skin Moisturizer provides hydration without leaving a heavy feel on the skin’s surface. Relieves the surface signs of aging while promoting hydration and protecting from environmental stressors.</p>",
+      "variations": [
+        {
+          "id": "var-FXNKITA76HOR43TF2KEQ4RJJ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IZGU5GG2RXDDPJW72E23DC7B",
+    "item_data": {
+      "name": "BIOREPEEL 4 PKG",
+      "description": "",
+      "variations": [
+        {
+          "id": "var-IZGU5GG2RXDDPJW72E23DC7B",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 64000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "R2YDU6X7IUR4KUU2OCAODWU4",
+    "item_data": {
+      "name": "Beta-Carotene Papain Renewal Serum 1oz",
+      "description": "<p>Our Beta-Carotene Papain Renewal Serum is the perfect mild exfoliation. Papain digests dead skin cells revealing softer, smoother skin.</p>",
+      "variations": [
+        {
+          "id": "var-R2YDU6X7IUR4KUU2OCAODWU4",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3650, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "ZFMKHXDPHALHN3QQ4UJ4T2ID",
+    "item_data": {
+      "name": "Blemish Spot Treatment",
+      "description": "<p>Our Blemish Spot Treatment is perfect to aid in alleviating active breakouts and treating cystic acne.</p>",
+      "variations": [
+        {
+          "id": "var-ZFMKHXDPHALHN3QQ4UJ4T2ID",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "E6VIVOXRWK2RGKAVOCNRYTES",
+    "item_data": {
+      "name": "Botanical Bloom Hydrating Mask",
+      "description": "<p>Experience intense hydration and radiant skin with our Botanical Bloom Hydrating Mask, powered by our exclusive Super Floral Complex.</p>",
+      "variations": [
+        {
+          "id": "var-E6VIVOXRWK2RGKAVOCNRYTES",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4800, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "HKMBBNXHBERNKRDBIJELDTUL",
+    "item_data": {
+      "name": "CIRCADIA HONEY MICROEXFOLIATING CLEANSER",
+      "description": "",
+      "variations": [
+        {
+          "id": "var-HKMBBNXHBERNKRDBIJELDTUL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "3IKRPTGZSRK56EF4Q2JYTRGM",
+    "item_data": {
+      "name": "Cacteen Balancing Moisturizer 1.7oz",
+      "description": "<p>This moisturizer will balance surface lipids and water with the healing properties of Prickly Pear cactus and humectants like Sodium PCA.</p>",
+      "variations": [
+        {
+          "id": "var-3IKRPTGZSRK56EF4Q2JYTRGM",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "KGHJ6NQJ4FAANY3UJIY3FCYH",
+    "item_data": {
+      "name": "Charcoal Clay Cleanser 2oz",
+      "description": "<p>This cleanser is infused with charcoal and kaolin clay to absorb environmental toxins.</p>",
+      "variations": [
+        {
+          "id": "var-KGHJ6NQJ4FAANY3UJIY3FCYH",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1250, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "Y2DN6ZZEDCAXFHJZTSDKY2CA",
+    "item_data": {
+      "name": "Charcoal Clay Cleanser 6.5oz",
+      "description": "<p>This cleanser is infused with charcoal and kaolin clay to absorb environmental toxins.</p>",
+      "variations": [
+        {
+          "id": "var-Y2DN6ZZEDCAXFHJZTSDKY2CA",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "KX2NX2Q5Z5GUW72IUYISGX7A",
+    "item_data": {
+      "name": "Circadia Acne Regimen Bundle",
+      "description": "<p><strong>Contents:</strong></p><p>1 – Mandelic Acid Cleansing Gel 2oz.</p><p>1 – Spot Stop 0.5oz.</p><p>1 – White Willow &amp; Juniper 4oz.</p><p>1 – Daytime Control 2oz.</p><p>1 – Blue Zipper Retail Bag</p>",
+      "variations": [
+        {
+          "id": "var-KX2NX2Q5Z5GUW72IUYISGX7A",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 8000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "JAOPP2CI4L7XIWQ7ACAVV23D",
+    "item_data": {
+      "name": "Circadia Aloe & Calendula Calming Mist 4 oz",
+      "description": "A soothing blend of aloe, calendula, elderflower, rose and seawhip extracts to help calm the discomfort associated with Rosacea and sensitive skin.",
+      "variations": [
+        {
+          "id": "var-JAOPP2CI4L7XIWQ7ACAVV23D",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3281, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OKAQBYQ7A4H6OBMU3RCYAABY",
+    "item_data": {
+      "name": "Circadia Amandola Milk Cleanser 6.7 oz",
+      "description": "This conditioning almond milk cleanser contains Lactic and Mandelic Acids that gently exfoliate, hydrate and brighten damaged skin",
+      "variations": [
+        {
+          "id": "var-OKAQBYQ7A4H6OBMU3RCYAABY",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TTMTZD46GKIQLLOB76HSU3MI",
+    "item_data": {
+      "name": "Circadia AquaPorin Hydrating Cream 1.7 oz",
+      "description": "Hydrate with natural oils to maintain and increase skin moisture.",
+      "variations": [
+        {
+          "id": "var-TTMTZD46GKIQLLOB76HSU3MI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 7219, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IXSJQGDYO7PTHPFHU23EBMO3",
+    "item_data": {
+      "name": "Circadia Blue Bamboo Exfoliator for Body 6.7 oz",
+      "description": "This exotic body scrub lathers into a creamy luxurious foam containing natural blueberry seeds and bamboo to gently exfoliate, remove impurities and cleanse.",
+      "variations": [
+        {
+          "id": "var-IXSJQGDYO7PTHPFHU23EBMO3",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "UIXKYT7XCBKME2TKKJVTPGOZ",
+    "item_data": {
+      "name": "Circadia Blueberry & White Tea Hydrating Mist 4 oz",
+      "description": "Hydrate and nourish while protecting skin with a complex of potent antioxidants.",
+      "variations": [
+        {
+          "id": "var-UIXKYT7XCBKME2TKKJVTPGOZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3806, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "BDGX2HJEZRWN2TMUGHM35FP2",
+    "item_data": {
+      "name": "Circadia Cleansing Gel with Mandelic Acid 6.7 oz",
+      "description": "An active foaming cleanser that brightens and exfoliates while targeting pigmentation, acne, and aging skin.",
+      "variations": [
+        {
+          "id": "var-BDGX2HJEZRWN2TMUGHM35FP2",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "2623RKO7ND7FZVV2N5TIGCD3",
+    "item_data": {
+      "name": "Circadia Cleansing Gel with Salicylic Acid 6.7 oz",
+      "description": "This light cleansing gel lathers into a creamy foam that deep cleans, while beta-hydroxy salicylic acid helps to soften and exfoliate.",
+      "variations": [
+        {
+          "id": "var-2623RKO7ND7FZVV2N5TIGCD3",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "YY5GFHWZ2WET5GOW2HQTA6RK",
+    "item_data": {
+      "name": "Circadia Hydralox Facial Oil 0.5oz",
+      "description": "Create a supple sheen as you lock in critical moisture and reduce water loss.",
+      "variations": [
+        {
+          "id": "var-YY5GFHWZ2WET5GOW2HQTA6RK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3806, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "WG6ENPQDFDWSX23ENXBS45HZ",
+    "item_data": {
+      "name": "Circadia Light Day Sunscreen Broad Spectrum SPF 37 – 2 oz",
+      "description": "Our environment requires daily protection with new levels of performance.",
+      "variations": [
+        {
+          "id": "var-WG6ENPQDFDWSX23ENXBS45HZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "BBRUC2VZOPRC3GOHG5PGKXMI",
+    "item_data": {
+      "name": "Circadia Lipid Replacing Cleansing Gel 6.7 oz",
+      "description": "This revitalizing cleanser effectively removes dirt, makeup and excess lipids without damaging the skin barrier.",
+      "variations": [
+        {
+          "id": "var-BBRUC2VZOPRC3GOHG5PGKXMI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "YQNSPH7C34RS3Z4Y27UYL4DE",
+    "item_data": {
+      "name": "Circadia Micro-Exfoliating Honey Cleanser 6.7 oz",
+      "description": "Micro-beads of natural beeswax gently cleanse and exfoliate, while absorbing excess oil.",
+      "variations": [
+        {
+          "id": "var-YQNSPH7C34RS3Z4Y27UYL4DE",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "54TVX3L6BACGJCUM34BXMWUP",
+    "item_data": {
+      "name": "Citrus-C Nourishing Cream 1oz",
+      "description": "<p>This robust creamy Vitamin C is hydrating and gentle.</p>",
+      "variations": [
+        {
+          "id": "var-54TVX3L6BACGJCUM34BXMWUP",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4800, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "ZH3SVXMZM7EPNDO44EEDDDAF",
+    "item_data": {
+      "name": "Clarifying Toner Pads 2oz",
+      "description": "<p>Clarifying Toner Pads use purifying active ingredients to relieve breakouts while improving the clarity and quality of the skin.</p>",
+      "variations": [
+        {
+          "id": "var-ZH3SVXMZM7EPNDO44EEDDDAF",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "6ID3Y3RX6LOW42BVO32SQYK7",
+    "item_data": {
+      "name": "Cucumber Hydration Toner 2oz",
+      "description": "<p>The Cucumber Hydration Toner rehydrates the skin while improving cellular functions and absorption of ingredients.</p>",
+      "variations": [
+        {
+          "id": "var-6ID3Y3RX6LOW42BVO32SQYK7",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "WSB4JBQAXRCUEDUT4HONRG5B",
+    "item_data": {
+      "name": "Cucumber Hydration Toner 3.3oz",
+      "description": "<p>The Cucumber Hydration Toner rehydrates the skin while improving cellular functions and absorption of ingredients.</p>",
+      "variations": [
+        {
+          "id": "var-WSB4JBQAXRCUEDUT4HONRG5B",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GSTPWHTQTNE6SY7TJJO4QTDW",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "Choose between 3 membership packages and save on your monthly treatments.",
+      "variations": [
+        {
+          "id": "var-GSTPWHTQTNE6SY7TJJO4QTDW",
+          "item_variation_data": {
+            "name": "2 Customized Facials",
+            "price_money": { "amount": 13000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DFZBGTFU3E563RGTE42FKCYT",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "3 Customized Facials",
+      "variations": [
+        {
+          "id": "var-DFZBGTFU3E563RGTE42FKCYT",
+          "item_variation_data": {
+            "name": "3 Customized Facials",
+            "price_money": { "amount": 18000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "5DA7BAW5YTYSWO2X3EP5COCA",
+    "item_data": {
+      "name": "Facial Membership",
+      "description": "4 Customized Facials",
+      "variations": [
+        {
+          "id": "var-5DA7BAW5YTYSWO2X3EP5COCA",
+          "item_variation_data": {
+            "name": "4 Customized Facials",
+            "price_money": { "amount": 25000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OGVUASZWND4WN2GIZSLPCWKD",
+    "item_data": {
+      "name": "Glycolic Cleanser 2oz",
+      "description": "<p>The Glycolic Cleanser is a foamy cleanser infused with a combination of alpha hydroxy acids.</p>",
+      "variations": [
+        {
+          "id": "var-OGVUASZWND4WN2GIZSLPCWKD",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "6K5747QFX4CIZEF7JGFVDGIW",
+    "item_data": {
+      "name": "Glycolic Cleanser 6.5oz",
+      "description": "<p>The Glycolic Cleanser is a foamy cleanser infused with a combination of alpha hydroxy acids.</p>",
+      "variations": [
+        {
+          "id": "var-6K5747QFX4CIZEF7JGFVDGIW",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "QHLSTBDL6HXGR7D4P3ZF4SXL",
+    "item_data": {
+      "name": "Glycolic and Retinol Pads 2oz",
+      "description": "<p>Glycolic &amp; Retinol Pads are designed to gently and progressively renew the skin.</p>",
+      "variations": [
+        {
+          "id": "var-QHLSTBDL6HXGR7D4P3ZF4SXL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "U437CHRR2YISRRYGVSH2I6SK",
+    "item_data": {
+      "name": "Green Tea Citrus Cleanser 2oz",
+      "description": "<p>The Green Tea Citrus Cleanser is a foamy, gentle cleansing option for environmentally challenged skin.</p>",
+      "variations": [
+        {
+          "id": "var-U437CHRR2YISRRYGVSH2I6SK",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DY6UFXEPQBUY46XWEPNXZIIG",
+    "item_data": {
+      "name": "Green Tea Citrus Cleanser 6.5oz",
+      "description": "<p>The Green Tea Citrus Cleanser is a foamy, gentle cleansing option for environmentally challenged skin.</p>",
+      "variations": [
+        {
+          "id": "var-DY6UFXEPQBUY46XWEPNXZIIG",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "VIQ25MQHMPQJJXO7NUCXUPSR",
+    "item_data": {
+      "name": "Honey Brightening Cleanser 2oz",
+      "description": "<p>Honey Brightening Cleanser helps to brighten the skin, address hyperpigmentation, strengthen the skin barrier, and enhance cellular turnover.</p>",
+      "variations": [
+        {
+          "id": "var-VIQ25MQHMPQJJXO7NUCXUPSR",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "FZD44OC6MG5QPQC43L44Q4BQ",
+    "item_data": {
+      "name": "Honey Brightening Cleanser 6.4 oz",
+      "description": "<p>Honey Brightening Cleanser helps to brighten the skin, address hyperpigmentation, strengthen the skin barrier, and enhance cellular turnover.</p>",
+      "variations": [
+        {
+          "id": "var-FZD44OC6MG5QPQC43L44Q4BQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "EAMQSC2DYOYPD5FDN5EZDKN6",
+    "item_data": {
+      "name": "Hydrating Moisturizer 1.7oz",
+      "description": "<p>A deeply nourishing moisturizer that is excellent for dry skin.</p>",
+      "variations": [
+        {
+          "id": "var-EAMQSC2DYOYPD5FDN5EZDKN6",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "N27CJBFKE4FFIRH7WHCIIM34",
+    "item_data": {
+      "name": "Light Aloe Moisturizer 2oz",
+      "description": "<p>The Light Aloe Moisturizer normalizes and hydrates skin without leaving a heavy feel or film behind.</p>",
+      "variations": [
+        {
+          "id": "var-N27CJBFKE4FFIRH7WHCIIM34",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TQGBQXCRE6SMYEI7ZM5PJHYM",
+    "item_data": {
+      "name": "Mandelic Brightening Serum 1oz",
+      "description": "<p>Mandelic Brightening Serum helps to reduce pigmentation, exfoliates, and helps reduce pores’ appearance.</p>",
+      "variations": [
+        {
+          "id": "var-TQGBQXCRE6SMYEI7ZM5PJHYM",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "HQC3FI6DAT2IRIBFWRZVHVB6",
+    "item_data": {
+      "name": "Mint Refining Toner 2oz",
+      "description": "<p>This toner contains BioFense, a probiotic to normalize skin flora, reduce redness and minimize pores.</p>",
+      "variations": [
+        {
+          "id": "var-HQC3FI6DAT2IRIBFWRZVHVB6",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "N7VX67SL7PEF3WEGAVVE4M4T",
+    "item_data": {
+      "name": "Mint Refining Toner 3.3oz",
+      "description": "This toner contains a probiotic to normalize skin flora, reduce redness and minimize pores.",
+      "variations": [
+        {
+          "id": "var-N7VX67SL7PEF3WEGAVVE4M4T",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "EXNBYH2I4FURGRI4ZIITTLKZ",
+    "item_data": {
+      "name": "Peppermint Ageless Lip Treatment",
+      "description": "Hydrate, enhance and soothe.",
+      "variations": [
+        {
+          "id": "var-EXNBYH2I4FURGRI4ZIITTLKZ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "IJ7DIT4IQHOIQH4WQK52ZNXI",
+    "item_data": {
+      "name": "Peptide Eye Serum",
+      "description": "<p>The Peptide Eye Serum alleviates dark under-eye circles by utilizing the peptides Eyeliss and Haloxyl.</p>",
+      "variations": [
+        {
+          "id": "var-IJ7DIT4IQHOIQH4WQK52ZNXI",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "OPTKPOXPQS66O5BPLPNH4YTN",
+    "item_data": {
+      "name": "Peptide Restoration Moisturizer 1.7oz",
+      "description": "<p>This superior anti-aging moisturizer is where luxury meets science.</p>",
+      "variations": [
+        {
+          "id": "var-OPTKPOXPQS66O5BPLPNH4YTN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "VNPXYFH4UV4ZZCETTZ3CKNCJ",
+    "item_data": {
+      "name": "Pomegranate Ageless Lip Treatment",
+      "description": "Hydrate, enhance and soothe.",
+      "variations": [
+        {
+          "id": "var-VNPXYFH4UV4ZZCETTZ3CKNCJ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "CJJG4LERLOQ4QJU6LSSUYIDD",
+    "item_data": {
+      "name": "Pomegranate Antioxidant Cleanser 2oz",
+      "description": "<p>The Pomegranate Antioxidant Cleanser is a moderately rich cream-based cleansing option.</p>",
+      "variations": [
+        {
+          "id": "var-CJJG4LERLOQ4QJU6LSSUYIDD",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1250, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GSC6ZSDVJJZQEHQQJQIXVTDL",
+    "item_data": {
+      "name": "Pomegranate Antioxidant Cleanser 6.5oz",
+      "description": "<p>The Pomegranate Antioxidant Cleanser is a moderately rich cream-based cleansing option.</p>",
+      "variations": [
+        {
+          "id": "var-GSC6ZSDVJJZQEHQQJQIXVTDL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "LZ4IP6KJTRY45Z6SAINXSF54",
+    "item_data": {
+      "name": "Raspberry Refining Cleanser 2oz",
+      "description": "<p>The Raspberry Refining Cleanser is a unique foamy cleanser that rebalances and improves skin texture.</p>",
+      "variations": [
+        {
+          "id": "var-LZ4IP6KJTRY45Z6SAINXSF54",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 1100, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "32RGZLVE2GWMUPGEAQ4QVVD5",
+    "item_data": {
+      "name": "Raspberry Refining Cleanser 6.5oz",
+      "description": "<p>The Raspberry Refining Cleanser is a unique foamy cleanser that rebalances and improves skin texture.</p>",
+      "variations": [
+        {
+          "id": "var-32RGZLVE2GWMUPGEAQ4QVVD5",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 2900, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "B3WKWKXGRI5CZ7TVVKLLLDJX",
+    "item_data": {
+      "name": "Raspberry Refining Scrub 4oz",
+      "description": "<p>The Raspberry Refining Scrub polishes and energizes the skin with the antioxidants raspberry and marionberry.</p>",
+      "variations": [
+        {
+          "id": "var-B3WKWKXGRI5CZ7TVVKLLLDJX",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3300, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "CT7FXE6CBZ7XOWRSPZBSTXXQ",
+    "item_data": {
+      "name": "Retinaldehyde Serum with IconicA 1oz",
+      "description": "<p>This ultimate anti-aging serum reduces fine lines and wrinkles.</p>",
+      "variations": [
+        {
+          "id": "var-CT7FXE6CBZ7XOWRSPZBSTXXQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 6600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "4PRYUQQTH4QF2WQAKXHFNN3W",
+    "item_data": {
+      "name": "Retinol 2% Exfoliating Scrub/Mask 1.7oz",
+      "description": "<p>The Retinol 2% Exfoliating Scrub/Mask exfoliates while brightening to promote a clear, healthy skin tone.</p>",
+      "variations": [
+        {
+          "id": "var-4PRYUQQTH4QF2WQAKXHFNN3W",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4500, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "TCNMQU5YXRGAG22TH27RWFEN",
+    "item_data": {
+      "name": "Revitalizing Cucumber Treatment",
+      "description": "<p>Revitalizing Cucumber Treatment is designed to exfoliate, hydrate, and gently revitalize.</p>",
+      "variations": [
+        {
+          "id": "var-TCNMQU5YXRGAG22TH27RWFEN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 5200, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "GKFGRYB2BPCGJMH5Y5L6A3XL",
+    "item_data": {
+      "name": "SKINSCRIPT MINIMALIST KIT",
+      "description": "The Minimalist Kit is designed to help absorb oils and toxins from the skin without over-drying.",
+      "variations": [
+        {
+          "id": "var-GKFGRYB2BPCGJMH5Y5L6A3XL",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4050, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "QE4H6YA7EKJII6MYC3EZGGTN",
+    "item_data": {
+      "name": "Sheer Protection SPF 30",
+      "description": "<p>The Sheer Protection SPF 30 is a light cream, natural sunblock with 13.5% zinc oxide.</p>",
+      "variations": [
+        {
+          "id": "var-QE4H6YA7EKJII6MYC3EZGGTN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3000, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "27NK3X74EU4YBYXEFFXZPOCN",
+    "item_data": {
+      "name": "Tri-Peptide Eye Cream",
+      "description": "<p>The Tri-Peptide Eye Cream contains three peptides to restore and rejuvenate the delicate under eye area.</p>",
+      "variations": [
+        {
+          "id": "var-27NK3X74EU4YBYXEFFXZPOCN",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 3600, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "DM522QGKUNOSBU55JS4ZGSRQ",
+    "item_data": {
+      "name": "Vitamin C/Green Tea Serum 1oz",
+      "description": "<p>The Vitamin C Green Tea Serum restores and revitalizes the skin with antioxidants and peptides.</p>",
+      "variations": [
+        {
+          "id": "var-DM522QGKUNOSBU55JS4ZGSRQ",
+          "item_variation_data": {
+            "name": "Regular",
+            "price_money": { "amount": 4400, "currency": "USD" }
+          }
+        }
+      ]
+    }
+  }
+]
