@@ -3,9 +3,10 @@ import { Button } from '../components/ui/button';
 import { Award, Shield, Star, Clock, ShoppingBag, Loader2 } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
-import heroImage from 'figma:asset/d6da4352e74888a3d0e5b25b14407b8a6dd8efa3.png';
-import mobileHeroImage from 'figma:asset/d6da4352e74888a3d0e5b25b14407b8a6dd8efa3.png';
+import heroPosterImage from 'figma:asset/d6da4352e74888a3d0e5b25b14407b8a6dd8efa3.png';
 import scienceSophisticationImage from 'figma:asset/b66e647ec4d5cc9d4d4331ac9d43ce631d6207b8.png';
+
+const HERO_VIDEO_SRC = '/hero-video.mp4';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '../components/ui/dialog';
 import { StripeCheckout } from '../components/StripeCheckout';
 import { stripeService, StripeProduct } from '../services/stripeService';
@@ -110,29 +111,29 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] md:min-h-[90vh] flex items-center texture-grain overflow-hidden">
-        {/* Background Image */}
-        <motion.div 
-          initial={{ scale: 1.1 }}
+        <motion.div
+          initial={{ scale: 1.05 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: EASE_LUXURY }}
           className="absolute inset-0"
         >
-          {/* Mobile Image */}
-          <div className="md:hidden w-full h-full">
-            <ImageWithFallback
-              src={mobileHeroImage}
-              alt="Luxury spa treatment"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          {/* Desktop Image */}
-          <div className="hidden md:block w-full h-full">
-            <ImageWithFallback
-              src={heroImage}
-              alt="Luxury spa treatment"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster={heroPosterImage}
+            className="w-full h-full object-cover motion-reduce:hidden"
+            aria-hidden
+          >
+            <source src={HERO_VIDEO_SRC} type="video/mp4" />
+          </video>
+          <ImageWithFallback
+            src={heroPosterImage}
+            alt="Luxury spa treatment"
+            className="w-full h-full object-cover hidden motion-reduce:block"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-[#2c2c2c]/70 via-[#2c2c2c]/50 to-transparent" />
         </motion.div>
 
