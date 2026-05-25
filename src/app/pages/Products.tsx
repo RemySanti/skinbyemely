@@ -7,6 +7,7 @@ import { toast } from 'sonner';
 import { LoadingAnimation } from '../components/LoadingAnimation';
 import { useNavigate } from 'react-router-dom';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import newsletterImage from 'figma:asset/d6da4352e74888a3d0e5b25b14407b8a6dd8efa3.png';
 import { Link } from 'react-router-dom';
 import { FadeInSection } from '../components/motion/FadeInSection';
 
@@ -367,9 +368,9 @@ export default function Products() {
                 </div>
                 <div className="flex-1 w-full max-w-xs md:max-w-sm">
                     <div className="aspect-square bg-white p-4 shadow-xl rotate-3 transform transition-transform hover:rotate-0">
-                        <img 
-                            src="https://images.unsplash.com/photo-1598214173466-82d8411951b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" 
-                            alt="Skincare texture"
+                        <ImageWithFallback
+                            src={newsletterImage}
+                            alt="Relaxing spa treatment at Skin by Emely"
                             className="w-full h-full object-cover"
                         />
                     </div>
