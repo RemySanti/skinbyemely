@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useBranding } from '../context/BrandingContext';
 
 export function LoadingAnimation() {
-  const { scriptFontFamily, skinFontFamily, branding } = useBranding();
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
@@ -22,22 +20,16 @@ export function LoadingAnimation() {
     >
       <div className="text-center">
         {/* Logo Animation */}
-        <div className="mb-8 animate-logo-pulse">
-          <div className="flex flex-col items-center">
-            <h2 
-              className="text-6xl md:text-8xl font-bold tracking-tight text-[#2c2c2c] leading-[0.8]"
-              style={{ fontFamily: skinFontFamily }}
-            >
-              SKIN
-            </h2>
-            <p 
-              className="text-3xl md:text-4xl text-[#6b6b6b] -mt-2 md:-mt-3 ml-12 md:ml-16 relative z-10"
-              style={{ fontFamily: scriptFontFamily }}
-            >
-              by {branding.ownerName?.trim() || 'Emely'}
-            </p>
-            <div className="h-px w-0 bg-gradient-bronze animate-line-expand mt-6" />
-          </div>
+        <div className="mb-8 animate-logo-pulse flex flex-col items-center">
+          <img
+            src="/logo.svg"
+            alt="Skin by Emely"
+            className="h-24 md:h-32 w-auto"
+            width={248}
+            height={88}
+            decoding="async"
+          />
+          <div className="h-px w-0 bg-gradient-bronze animate-line-expand mt-6" />
         </div>
 
         {/* Loading Text */}

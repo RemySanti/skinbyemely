@@ -16,6 +16,17 @@ export const DEFAULT_SITE_BRANDING: SiteBranding = {
 const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-fd83a735`;
 const LOCAL_BRANDING_KEY = 'sbe_site_branding';
 
+export function getInitialBranding(): SiteBranding {
+  if (typeof window === 'undefined') return DEFAULT_SITE_BRANDING;
+  try {
+    const raw = localStorage.getItem(LOCAL_BRANDING_KEY);
+    if (!raw) return DEFAULT_SITE_BRANDING;
+    return { ...DEFAULT_SITE_BRANDING, ...JSON.parse(raw) };
+  } catch {
+    return DEFAULT_SITE_BRANDING;
+  }
+}
+
 function readLocalBranding(): SiteBranding | null {
   if (typeof window === 'undefined') return null;
   try {

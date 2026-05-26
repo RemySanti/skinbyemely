@@ -6,12 +6,12 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate:logo": "node scripts/generate-logo-svg.mjs"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
-    "@supabase/supabase-js": "^2.49.8",
     "@medusajs/medusa-js": "^6.1.10",
     "@mui/icons-material": "7.3.5",
     "@mui/material": "7.3.5",
@@ -44,6 +44,7 @@
     "@radix-ui/react-tooltip": "1.1.8",
     "@stripe/react-stripe-js": "^6.3.0",
     "@stripe/stripe-js": "^9.4.0",
+    "@supabase/supabase-js": "^2.49.8",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "cmdk": "1.1.1",
@@ -78,6 +79,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
     "@vitejs/plugin-react": "4.7.0",
+    "opentype.js": "^2.0.0",
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   }

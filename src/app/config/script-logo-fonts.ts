@@ -102,6 +102,81 @@ export function buildGoogleFontsStylesheetUrl(googleFamilies: string[]): string 
   return `https://fonts.googleapis.com/css2?${families}&display=swap`;
 }
 
+/** Logo fonts only — block prevents fallback type from showing before the real face loads. */
+export function buildLogoFontsStylesheetUrl(scriptFontId: string, skinFontId: string): string {
+  const families = getBrandingGoogleFamilies(scriptFontId, skinFontId)
+    .map((g) => `family=${g}`)
+    .join('&');
+  return `https://fonts.googleapis.com/css2?${families}&display=block`;
+}
+
+function primaryFontName(family: string): string {
+  const quoted = family.match(/['"]([^'"]+)['"]/);
+  return quoted ? quoted[1] : family.split(',')[0].trim();
+}
+
+function logoFontDescriptors(scriptFontId: string, skinFontId: string): [string, string] {
+  const script = getScriptFontById(scriptFontId);
+  const skin = getSkinFontById(skinFontId);
+  const quote = (name: string) => `"${name}"`;
+  return [
+    `400 1em ${quote(primaryFontName(script.family))}`,
+    `400 1em ${quote(primaryFontName(skin.family))}`,
+  ];
+}
+
+export function logoFontsAreReady(scriptFontId: string, skinFontId: string): boolean {
+  if (typeof document === 'undefined' || !document.fonts) return true;
+  const [scriptDesc, skinDesc] = logoFontDescriptors(scriptFontId, skinFontId);
+  return document.fonts.check(scriptDesc) && document.fonts.check(skinDesc);
+}
+
+/** Resolves true only when the configured logo fonts are actually available. */
+export function waitForLogoFonts(
+  scriptFontId: string,
+  skinFontId: string,
+  maxMs = 3000,
+): Promise<boolean> {
+  if (logoFontsAreReady(scriptFontId, skinFontId)) {
+    return Promise.resolve(true);
+  }
+  if (typeof document === 'undefined' || !document.fonts) {
+    return Promise.resolve(true);
+  }
+
+  const [scriptDesc, skinDesc] = logoFontDescriptors(scriptFontId, skinFontId);
+
+  return new Promise((resolve) => {
+    const started = performance.now();
+
+    const tryResolve = () => {
+      if (logoFontsAreReady(scriptFontId, skinFontId)) {
+        resolve(true);
+        return true;
+      }
+      if (performance.now() - started >= maxMs) {
+        resolve(false);
+        return true;
+      }
+      return false;
+    };
+
+    if (tryResolve()) return;
+
+    Promise.allSettled([
+      document.fonts.load(scriptDesc),
+      document.fonts.load(skinDesc),
+    ]).finally(() => {
+      if (tryResolve()) return;
+      const poll = () => {
+        if (tryResolve()) return;
+        window.setTimeout(poll, 50);
+      };
+      poll();
+    });
+  });
+}
+
 const PREVIEW_CHUNK_SIZE = 8;
 
 /** Load Google Fonts in small batches (single large URLs return 400). Returns cleanup. */
