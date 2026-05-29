@@ -148,7 +148,7 @@ export default function Home() {
           >
             <motion.div variants={fadeUpVariants} className="w-16 h-px bg-gradient-bronze mb-8" />
             <motion.h1 variants={fadeUpVariants} className="text-5xl md:text-7xl text-white mb-6 leading-tight">
-              Personalized Skincare & Intentional Touch
+              Personalized Skincare
             </motion.h1>
             <motion.p variants={fadeUpVariants} className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed max-w-xl">
               Expert care, thoughtfully tailored to your skin.
@@ -171,6 +171,16 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </div>
+      </section>
+
+      {/* Brand tagline — off hero so the video stays unobstructed */}
+      <section className="py-14 px-4 bg-[#faf8f5] border-b border-[#b8956a]/10">
+        <FadeInSection className="max-w-6xl mx-auto text-center">
+          <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
+          <h2 className="text-3xl md:text-4xl font-serif text-[#2c2c2c] tracking-wide font-normal">
+            Intentional Touch
+          </h2>
+        </FadeInSection>
       </section>
 
       {/* Trust Indicators */}
