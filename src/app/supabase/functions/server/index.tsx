@@ -897,8 +897,8 @@ app.post("/make-server-fd83a735/checkout-config", async (c) => {
 // --- SITE BRANDING (script logo font for owner name) ---
 
 const DEFAULT_SITE_BRANDING = {
-  scriptFontId: "pinyon-script",
-  skinFontId: "bodoni-moda",
+  scriptFontId: "allura",
+  skinFontId: "playfair-display",
   ownerName: "Emely",
 };
 

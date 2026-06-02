@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '../components/ui/button';
-import { Loader2, ShoppingCart, Trash2, Plus, Minus, Lock, Truck, ShieldCheck, RefreshCw, Mail } from 'lucide-react';
+import { Loader2, ShoppingCart, Trash2, Plus, Minus, Lock, Truck, ShieldCheck, Info, Mail } from 'lucide-react';
 import { cartService, Cart as CartType } from '../services/cartService';
 import { stripeService } from '../services/stripeService';
 import { Link } from 'react-router-dom';
@@ -267,8 +267,8 @@ export default function Cart() {
                         <span>Fast Shipping (3-5 Business Days)</span>
                     </div>
                     <div className="flex items-center gap-2 text-xs text-[#6b6b6b]">
-                        <RefreshCw className="w-4 h-4 text-[#b8956a]" />
-                        <span>Easy Returns within 30 days</span>
+                        <Info className="w-4 h-4 text-[#b8956a]" />
+                        <span>All sales final</span>
                     </div>
                      <div className="flex items-center gap-2 text-xs text-[#6b6b6b]">
                         <Mail className="w-4 h-4 text-[#b8956a]" />
@@ -296,7 +296,6 @@ export default function Cart() {
 
                   <div className="flex justify-center gap-4 text-[10px] text-[#b8956a] uppercase tracking-widest">
                     <Link to="/about" className="hover:underline">Shipping</Link>
-                    <Link to="/about" className="hover:underline">Returns</Link>
                     <Link to="/contact" className="hover:underline">Contact</Link>
                     <Link to="/about" className="hover:underline">Privacy</Link>
                   </div>

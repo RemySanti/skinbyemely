@@ -1,6 +1,6 @@
 /**
  * Generates path-based SVG logos (no web fonts required at runtime).
- * Fonts: Bodoni Moda 700 (SKIN) + Pinyon Script (by Emely)
+ * Fonts: Playfair Display 700 (SKIN) + Allura (by Emely)
  */
 import fs from 'fs';
 import path from 'path';
@@ -13,10 +13,10 @@ const FONTS_DIR = path.join(__dirname, 'fonts');
 const OUT_DIR = path.join(ROOT, 'public');
 
 const FONT_URLS = {
-  bodoni:
-    'https://fonts.gstatic.com/s/bodonimoda/v28/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oandwIA.ttf',
-  pinyon:
-    'https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8aOI.ttf',
+  playfair:
+    'https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf',
+  allura:
+    'https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuAPjA.ttf',
 };
 
 async function downloadFont(name, url) {
@@ -36,7 +36,7 @@ function pathData(font, text, x, y, size, options = {}) {
   return p.toPathData(2);
 }
 
-function buildLogo({ skinFill, scriptFill, id, bodoniFont, pinyonFont }) {
+function buildLogo({ skinFill, scriptFill, id, skinFont, scriptFont }) {
   const skinSize = 64;
   const scriptSize = 30;
   const skinText = 'SKIN';
@@ -48,10 +48,10 @@ function buildLogo({ skinFill, scriptFill, id, bodoniFont, pinyonFont }) {
   const scriptX = 92;
   const scriptY = 78;
 
-  const skinPath = pathData(bodoniFont, skinText, skinX, skinY, skinSize, {
+  const skinPath = pathData(skinFont, skinText, skinX, skinY, skinSize, {
     features: { liga: true },
   });
-  const scriptPath = pathData(pinyonFont, scriptText, scriptX, scriptY, scriptSize);
+  const scriptPath = pathData(scriptFont, scriptText, scriptX, scriptY, scriptSize);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 88" fill="none" role="img" aria-labelledby="${id}-title">
@@ -63,8 +63,8 @@ function buildLogo({ skinFill, scriptFill, id, bodoniFont, pinyonFont }) {
 }
 
 async function main() {
-  const bodoni = await downloadFont('bodoni', FONT_URLS.bodoni);
-  const pinyon = await downloadFont('pinyon', FONT_URLS.pinyon);
+  const playfair = await downloadFont('playfair', FONT_URLS.playfair);
+  const allura = await downloadFont('allura', FONT_URLS.allura);
 
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -72,15 +72,15 @@ async function main() {
     id: 'logo-header',
     skinFill: '#171717',
     scriptFill: '#737373',
-    bodoniFont: bodoni,
-    pinyonFont: pinyon,
+    skinFont: playfair,
+    scriptFont: allura,
   });
   const footer = buildLogo({
     id: 'logo-footer',
     skinFill: '#d4bb8f',
     scriptFill: 'rgba(250, 248, 245, 0.8)',
-    bodoniFont: bodoni,
-    pinyonFont: pinyon,
+    skinFont: playfair,
+    scriptFont: allura,
   });
 
   fs.writeFileSync(path.join(OUT_DIR, 'logo.svg'), header);

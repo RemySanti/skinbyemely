@@ -78,8 +78,8 @@ export const SCRIPT_LOGO_FONTS: LogoFont[] = [
   { id: 'ephesis', label: 'Ephesis', family: "'Ephesis', cursive", googleFamily: 'Ephesis' },
 ];
 
-export const DEFAULT_SCRIPT_FONT_ID = 'pinyon-script';
-export const DEFAULT_SKIN_FONT_ID = 'bodoni-moda';
+export const DEFAULT_SCRIPT_FONT_ID = 'allura';
+export const DEFAULT_SKIN_FONT_ID = 'playfair-display';
 
 export function getScriptFontById(id: string): LogoFont {
   return SCRIPT_LOGO_FONTS.find((f) => f.id === id) ?? SCRIPT_LOGO_FONTS[0];
