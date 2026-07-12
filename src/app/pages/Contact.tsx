@@ -86,9 +86,9 @@ export default function Contact() {
                     { 
                       icon: <MapPin className="w-5 h-5" />, 
                       title: 'STUDIO', 
-                      line1: '1111 Oakfield Dr', 
+                      line1: '1206 Millennium Parkway, Suite 2004', 
                       line2: 'Brandon, FL 33511', 
-                      link: 'https://www.google.com/maps/search/?api=1&query=1111+Oakfield+Dr+Brandon+FL+33511', 
+                      link: 'https://www.google.com/maps/search/?api=1&query=1206+Millennium+Parkway+Suite+2004+Brandon+FL+33511', 
                       linkText: 'Get Directions' 
                     },
                     { 

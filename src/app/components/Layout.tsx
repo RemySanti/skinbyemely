@@ -65,7 +65,7 @@ export default function Layout() {
             (914) 299-7739
           </a>
           <a 
-            href="https://www.google.com/maps/search/?api=1&query=1111+Oakfield+Dr+Brandon+FL+33511"
+            href="https://www.google.com/maps/search/?api=1&query=1206+Millennium+Parkway+Suite+2004+Brandon+FL+33511"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#b8956a] transition-colors text-right"
@@ -322,7 +322,7 @@ export default function Layout() {
             <div>
               <h4 className="mb-6 tracking-wider">LOCATION</h4>
               <div className="space-y-3 text-[#faf8f5]/80">
-                <p>1111 Oakfield Dr</p>
+                <p>1206 Millennium Parkway, Suite 2004</p>
                 <p>Brandon, FL 33511</p>
                 <a href="tel:9142997739" className="block hover:text-[#d4bb8f] transition-colors">
                   (914) 299-7739
@@ -337,9 +337,6 @@ export default function Layout() {
                 </Link>
                 <Link to="/about" className="block text-[#faf8f5]/80 hover:text-[#d4bb8f] transition-colors">
                   About
-                </Link>
-                <Link to="/product-catalog" className="block text-[#faf8f5]/80 hover:text-[#d4bb8f] transition-colors">
-                  Product Catalog
                 </Link>
               </div>
             </div>

@@ -91,6 +91,30 @@ export default function About() {
                   Skincare is not just about the products or techniques; it's about the relationship I build with my clients. I take pride in the bonds I've formed and strive to ensure that everyone who steps into my space leaves feeling not only beautiful but also deeply cared for.
                 </p>
               </div>
+
+              <div className="mt-10 pt-8 border-t border-[#b8956a]/15">
+                <p className="text-xs uppercase tracking-[0.2em] text-[#b8956a] mb-4 font-medium">
+                  Professional Credentials
+                </p>
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                  <img
+                    src="/certifications/circadia-acne-specialist.png"
+                    alt="Circadia Skin Specialist certification in Acne"
+                    className="w-36 h-36 object-contain flex-shrink-0"
+                    width={144}
+                    height={144}
+                    loading="lazy"
+                  />
+                  <div className="text-center sm:text-left">
+                    <p className="font-serif text-xl text-[#2c2c2c] mb-2">
+                      Circadia Skin Specialist
+                    </p>
+                    <p className="text-[#6b6b6b] text-base leading-relaxed">
+                      Certified in acne-focused skincare through Circadia, a professional-grade line trusted in clinical settings.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </FadeInSection>
           </div>
         </div>
@@ -235,7 +259,7 @@ export default function About() {
                   <div>
                     <p className="font-serif text-lg text-[#2c2c2c] mb-1">Visit Us</p>
                     <p className="text-[#6b6b6b] leading-relaxed">
-                      1111 Oakfield Dr<br/>
+                      1206 Millennium Parkway, Suite 2004<br/>
                       Brandon, FL 33511
                     </p>
                   </div>

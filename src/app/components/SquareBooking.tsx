@@ -445,7 +445,7 @@ export function SquareBooking({
             </div>
 
             <p className="text-sm text-[#6b6b6b] mb-6">
-              Location: 1111 Oakfield Dr, Brandon, FL 33511
+              Location: 1206 Millennium Parkway, Suite 2004, Brandon, FL 33511
             </p>
 
             <Button

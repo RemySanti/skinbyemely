@@ -7,7 +7,6 @@ import { toast } from 'sonner';
 import { LoadingAnimation } from '../components/LoadingAnimation';
 import { useNavigate } from 'react-router-dom';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import newsletterImage from 'figma:asset/d6da4352e74888a3d0e5b25b14407b8a6dd8efa3.png';
 import { Link } from 'react-router-dom';
 import { FadeInSection } from '../components/motion/FadeInSection';
 
@@ -350,33 +349,6 @@ export default function Products() {
           </main>
         </div>
       </div>
-
-      {/* Newsletter Section */}
-      <section className="bg-[#f2efe9] py-20 px-4">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
-                <div className="flex-1 text-center md:text-left">
-                    <h2 className="text-3xl font-serif text-[#2c2c2c] mb-4">Subscribe to our newsletter</h2>
-                    <p className="text-[#6b6b6b] mb-8">Join our list for exclusive skincare tips, new product launches, and special offers.</p>
-                    <div className="flex gap-4 max-w-md mx-auto md:mx-0">
-                        <input 
-                            type="email" 
-                            placeholder="Enter your email" 
-                            className="flex-1 bg-white px-4 py-3 text-sm focus:outline-none focus:ring-1 focus:ring-[#b8956a]"
-                        />
-                        <Button className="btn-bronze px-8">Subscribe</Button>
-                    </div>
-                </div>
-                <div className="flex-1 w-full max-w-xs md:max-w-sm">
-                    <div className="aspect-square bg-white p-4 shadow-xl rotate-3 transform transition-transform hover:rotate-0">
-                        <ImageWithFallback
-                            src={newsletterImage}
-                            alt="Relaxing spa treatment at Skin by Emely"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                </div>
-            </div>
-      </section>
 
     </div>
   );
