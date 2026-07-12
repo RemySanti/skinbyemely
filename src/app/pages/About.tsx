@@ -71,7 +71,7 @@ export default function About() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-8 -left-8 w-48 h-48 border border-[#b8956a]/30 -z-10" />
+              <div className="absolute -bottom-8 -left-8 w-48 h-48 border border-[#b8956a]/30 -z-10 hidden md:block" />
             </FadeInSection>
             
             <FadeInSection delay={0.2}>

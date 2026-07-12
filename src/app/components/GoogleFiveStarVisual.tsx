@@ -67,8 +67,8 @@ export function GoogleFiveStarVisual({ compact = false, className = '' }: Google
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#faf8f5] via-white to-[#f5f0e8] pointer-events-none" />
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#b8956a]/60 to-transparent" />
-      <div className="absolute -top-16 -right-16 w-40 h-40 rounded-full border border-[#b8956a]/10 pointer-events-none" />
-      <div className="absolute -bottom-12 -left-12 w-32 h-32 rounded-full border border-[#b8956a]/10 pointer-events-none" />
+      <div className="absolute -top-16 -right-16 w-40 h-40 rounded-full border border-[#b8956a]/10 pointer-events-none hidden md:block" />
+      <div className="absolute -bottom-12 -left-12 w-32 h-32 rounded-full border border-[#b8956a]/10 pointer-events-none hidden md:block" />
 
       <div className="relative px-8 py-10 md:px-12 md:py-12 text-center">
         <div className="flex items-center justify-center gap-3 mb-6">

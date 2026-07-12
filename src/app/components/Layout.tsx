@@ -50,7 +50,7 @@ export default function Layout() {
   }, [location]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#faf8f5]">
+    <div className="min-h-screen flex flex-col bg-[#faf8f5] overflow-x-hidden">
       <CartDrawer isOpen={cartDrawerOpen} onClose={() => setCartDrawerOpen(false)} />
       
       {/* Utility Bar */}

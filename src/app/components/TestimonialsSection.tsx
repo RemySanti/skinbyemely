@@ -60,8 +60,8 @@ export function TestimonialsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="border-[#b8956a] text-[#b8956a] hover:bg-[#b8956a] hover:text-white bg-transparent" />
-            <CarouselNext className="border-[#b8956a] text-[#b8956a] hover:bg-[#b8956a] hover:text-white bg-transparent" />
+            <CarouselPrevious className="hidden md:inline-flex border-[#b8956a] text-[#b8956a] hover:bg-[#b8956a] hover:text-white bg-transparent" />
+            <CarouselNext className="hidden md:inline-flex border-[#b8956a] text-[#b8956a] hover:bg-[#b8956a] hover:text-white bg-transparent" />
           </Carousel>
         </div>
       </div>

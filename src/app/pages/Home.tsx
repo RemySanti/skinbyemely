@@ -238,7 +238,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-8 -right-8 w-48 h-48 border border-[#b8956a]/30 -z-10" />
+              <div className="absolute -bottom-8 -right-8 w-48 h-48 border border-[#b8956a]/30 -z-10 hidden md:block" />
             </FadeInSection>
           </div>
         </div>
@@ -290,8 +290,8 @@ export default function Home() {
                     <div className="relative overflow-hidden bg-gradient-to-br from-[#faf8f5] to-[#f5f0e8] p-8 pt-12 pb-10">
                       {/* Decorative Elements */}
                       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-bronze"></div>
-                      <div className="absolute -top-10 -right-10 w-32 h-32 border border-[#b8956a]/10 rounded-full"></div>
-                      <div className="absolute -bottom-6 -left-6 w-24 h-24 border border-[#b8956a]/5 rounded-full"></div>
+                      <div className="absolute -top-10 -right-10 w-32 h-32 border border-[#b8956a]/10 rounded-full hidden md:block"></div>
+                      <div className="absolute -bottom-6 -left-6 w-24 h-24 border border-[#b8956a]/5 rounded-full hidden md:block"></div>
                       
                       {/* Product Initial/Monogram */}
                       <div className="relative z-10 text-center mb-6">
