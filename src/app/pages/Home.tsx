@@ -17,6 +17,7 @@ import { FadeInSection } from '../components/motion/FadeInSection';
 import { fadeUpVariants, staggerContainer, EASE_LUXURY } from '../utils/motion';
 
 import { TestimonialsSection } from '../components/TestimonialsSection';
+import { GoogleFiveStarVisual } from '../components/GoogleFiveStarVisual';
 
 export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState<StripeProduct[]>([]);
@@ -173,25 +174,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Brand tagline — off hero so the video stays unobstructed */}
-      <section className="py-14 px-4 bg-[#faf8f5] border-b border-[#b8956a]/10">
-        <FadeInSection className="max-w-6xl mx-auto text-center">
-          <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
-          <h2 className="text-3xl md:text-4xl font-serif text-[#2c2c2c] tracking-wide font-normal">
-            Intentional Touch
-          </h2>
+      {/* Google 5-star social proof — off hero so the video stays unobstructed */}
+      <section className="py-12 md:py-14 px-4 bg-[#faf8f5] border-b border-[#b8956a]/10">
+        <FadeInSection className="max-w-3xl mx-auto">
+          <GoogleFiveStarVisual />
         </FadeInSection>
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-20 px-4 bg-white">
+      <section className="py-16 md:py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <motion.div 
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
-            className="grid md:grid-cols-4 gap-12 text-center"
+            className="grid md:grid-cols-4 gap-8 md:gap-10 text-center"
           >
             {[
               { icon: <Award className="w-8 h-8" />, title: 'Expert Care', desc: 'Clinical precision meets luxury' },
@@ -212,19 +210,19 @@ export default function Home() {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-32 px-4 bg-[#faf8f5]">
+      <section className="pt-16 pb-10 md:pt-20 md:pb-12 px-4 bg-[#faf8f5]">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-center">
             <FadeInSection>
               <div className="w-16 h-px bg-gradient-bronze mb-6" />
-              <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-6">
-                Where Science Meets Sophistication
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#2c2c2c] mb-8 leading-tight">
+                Where Results Meet Relaxation
               </h2>
-              <p className="text-lg text-[#4a4a4a] leading-relaxed mb-8">
-                At SkinByEmely, we believe exceptional skincare is both an art and a science. Our clinical approach delivers visible, lasting results while our luxury environment ensures every visit is a restorative experience.
+              <p className="text-2xl md:text-3xl font-serif text-[#2c2c2c] leading-snug mb-5">
+                Clinical precision. Luxury care. Real results.
               </p>
-              <p className="text-lg text-[#4a4a4a] leading-relaxed mb-10">
-                Each treatment is meticulously customized to your unique skin profile, combining advanced techniques with premium formulations for transformative outcomes.
+              <p className="text-xl md:text-2xl text-[#4a4a4a] leading-relaxed mb-10 max-w-xl">
+                Every treatment is tailored to your skin. Advanced techniques, premium products, and a restorative experience built around you.
               </p>
               <Link to="/about">
                 <Button className="btn-outline-bronze px-8 py-4 rounded hover:shadow-md transition-all">
@@ -247,9 +245,9 @@ export default function Home() {
       </section>
 
       {/* Featured Products Section */}
-      <section className="py-24 px-4 bg-[#faf8f5]">
+      <section className="pt-10 pb-16 md:pt-12 md:pb-20 px-4 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto">
-          <FadeInSection className="text-center mb-16">
+          <FadeInSection className="text-center mb-10 md:mb-12">
             <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
               Shop Favorites
@@ -381,7 +379,7 @@ export default function Home() {
             </motion.div>
           ) : null}
 
-          <FadeInSection delay={0.3} className="text-center mt-12">
+          <FadeInSection delay={0.3} className="text-center mt-10">
             <Link to="/products">
               <Button className="btn-outline-bronze px-8 py-3 rounded hover:shadow-md transition-all">
                 View All Products
@@ -395,68 +393,23 @@ export default function Home() {
       <TestimonialsSection />
 
       {/* Location Section */}
-      <section className="py-32 px-4 bg-white">
+      <section className="py-16 md:py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <FadeInSection className="text-center mb-20">
+          <FadeInSection className="text-center">
             <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
               Serving Brandon, Valrico & Tampa
             </h2>
-            <p className="text-lg text-[#6b6b6b] max-w-2xl mx-auto">
+            <p className="text-lg text-[#6b6b6b] max-w-2xl mx-auto mb-8">
               Conveniently located to serve discerning clients throughout Tampa Bay
             </p>
+            <Link to="/contact">
+              <Button className="btn-outline-bronze px-8 py-3 rounded hover:shadow-md transition-all">
+                Visit Us
+              </Button>
+            </Link>
           </FadeInSection>
-
-          <div className="grid md:grid-cols-2 gap-12">
-            {[
-              {
-                location: 'Brandon Clients',
-                title: 'Your Local Sanctuary',
-                desc: 'Experience clinical luxury skincare right in your community. Our Brandon studio offers an exclusive retreat from the everyday.',
-                link: '/contact'
-              },
-              {
-                location: 'Tampa & Valrico',
-                title: 'Worth the Journey',
-                desc: 'Just moments from Tampa and Valrico, our Brandon location provides the same exceptional care in a serene, accessible setting.',
-                link: '/contact'
-              }
-            ].map((loc, idx) => (
-              <FadeInSection delay={idx * 0.2} key={idx} className="card-premium p-12 hover-lift">
-                <span className="text-sm tracking-wider text-[#b8956a] mb-4 block">{loc.location}</span>
-                <h3 className="text-3xl font-serif text-[#2c2c2c] mb-4">{loc.title}</h3>
-                <p className="text-[#6b6b6b] leading-relaxed mb-8">{loc.desc}</p>
-                <Link to={loc.link}>
-                  <Button className="btn-outline-bronze px-8 py-3 rounded hover:shadow-md transition-all">
-                    Visit Us
-                  </Button>
-                </Link>
-              </FadeInSection>
-            ))}
-          </div>
         </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-32 px-4 bg-gradient-to-br from-[#4a4a4a] to-[#2c2c2c] text-white relative overflow-hidden texture-grain">
-        <FadeInSection className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="w-16 h-px bg-gradient-bronze mx-auto mb-8" />
-          <h2 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
-            Begin Your Transformation
-          </h2>
-          <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Book your personalized consultation and discover the difference that clinical expertise and luxury care can make.
-          </p>
-          <a
-            href={SQUARE_BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="btn-bronze px-12 py-6 rounded hover:shadow-xl transition-all text-base">
-              Book Now
-            </Button>
-          </a>
-        </FadeInSection>
       </section>
     </div>
   );

@@ -33,9 +33,9 @@ export function TestimonialsSection() {
   ];
 
   return (
-    <section className="py-24 md:py-32 px-4 bg-[#2c2c2c] text-white texture-grain overflow-hidden">
+    <section className="py-16 md:py-20 px-4 bg-[#2c2c2c] text-white texture-grain overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
           <h2 className="text-3xl md:text-5xl font-serif text-white mb-6">
             Client Experiences

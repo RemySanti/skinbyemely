@@ -309,7 +309,7 @@ export default function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-32 py-20 px-4 bg-[#2c2c2c] text-[#faf8f5]">
+      <footer className="py-20 px-4 bg-[#2c2c2c] text-[#faf8f5]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
             <div>

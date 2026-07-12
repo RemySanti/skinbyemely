@@ -900,6 +900,7 @@ const DEFAULT_SITE_BRANDING = {
   scriptFontId: "allura",
   skinFontId: "playfair-display",
   ownerName: "Emely",
+  homeTaglineId: "intentional-touch",
 };
 
 app.get("/make-server-fd83a735/site-branding", async (c) => {
@@ -921,6 +922,7 @@ app.post("/make-server-fd83a735/site-branding", async (c) => {
       scriptFontId: body.scriptFontId || DEFAULT_SITE_BRANDING.scriptFontId,
       skinFontId: body.skinFontId || DEFAULT_SITE_BRANDING.skinFontId,
       ownerName: (body.ownerName || DEFAULT_SITE_BRANDING.ownerName).trim(),
+      homeTaglineId: body.homeTaglineId || DEFAULT_SITE_BRANDING.homeTaglineId,
     };
     await kv.set("site_branding", branding);
     return c.json({ success: true, branding });

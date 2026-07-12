@@ -14,6 +14,7 @@ import {
   getScriptFontById,
   getSkinFontById,
 } from '../config/script-logo-fonts';
+import { GoogleFiveStarVisual } from '../components/GoogleFiveStarVisual';
 import { useBranding } from '../context/BrandingContext';
 import { useState, useEffect } from 'react';
 import { Alert, AlertDescription, AlertTitle } from '../components/ui/alert';
@@ -212,15 +213,19 @@ export default function OwnerDashboard() {
           <p className="text-[#6b6b6b]">Manage your website and integrations.</p>
         </div>
 
+        <div className="mb-8">
+          <GoogleFiveStarVisual />
+        </div>
+
         {/* Logo typography picker */}
         <Card className="mb-6 border-[#b8956a]/20">
           <CardHeader>
             <CardTitle className="text-xl font-serif text-[#2c2c2c] flex items-center gap-2">
               <Type className="w-5 h-5 text-[#b8956a]" />
-              Logo Typography
+              Site Branding
             </CardTitle>
             <CardDescription>
-              Customize both lines of your logo — the SKIN wordmark and your script signature. Choose from 30 styles for each, then save to apply site-wide.
+              Customize your logo typography. Save to apply site-wide.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -229,7 +234,7 @@ export default function OwnerDashboard() {
                 <CheckCircle2 className="h-4 w-4 text-green-600" />
                 <AlertTitle className="text-green-800">Saved!</AlertTitle>
                 <AlertDescription className="text-green-700">
-                  Your logo typography is live on the website header and footer.
+                  Your logo typography is live on the website.
                 </AlertDescription>
               </Alert>
             )}

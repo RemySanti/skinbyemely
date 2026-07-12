@@ -1,16 +1,19 @@
 import { projectId, publicAnonKey } from '../utils/supabase/info';
 import { DEFAULT_SCRIPT_FONT_ID, DEFAULT_SKIN_FONT_ID } from '../config/script-logo-fonts';
+import { DEFAULT_HOME_TAGLINE_ID } from '../config/home-taglines';
 
 export interface SiteBranding {
   scriptFontId: string;
   skinFontId: string;
   ownerName: string;
+  homeTaglineId: string;
 }
 
 export const DEFAULT_SITE_BRANDING: SiteBranding = {
   scriptFontId: DEFAULT_SCRIPT_FONT_ID,
   skinFontId: DEFAULT_SKIN_FONT_ID,
   ownerName: 'Emely',
+  homeTaglineId: DEFAULT_HOME_TAGLINE_ID,
 };
 
 const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-fd83a735`;

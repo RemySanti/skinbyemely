@@ -10,6 +10,7 @@ import { FadeInSection } from '../components/motion/FadeInSection';
 import { TestimonialsSection } from '../components/TestimonialsSection';
 import { toast } from 'sonner';
 import { SQUARE_BOOKING_URL } from '../components/BookingRedirect';
+import { GoogleFiveStarVisual } from '../components/GoogleFiveStarVisual';
 
 export default function About() {
   const [featuredProducts, setFeaturedProducts] = useState<StripeProduct[]>([]);
@@ -59,9 +60,9 @@ export default function About() {
   return (
     <div className="bg-[#faf8f5]">
       {/* 1. Bio Section */}
-      <section className="py-24 px-4 bg-white">
+      <section className="pt-20 pb-16 md:pt-24 md:pb-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-20 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center">
             <FadeInSection className="relative">
               <div className="aspect-[3/4] relative overflow-hidden">
                 <ImageWithFallback
@@ -80,9 +81,9 @@ export default function About() {
               </h2>
               <div className="w-16 h-px bg-gradient-bronze mb-6" />
               
-              <div className="space-y-6 text-lg text-[#4a4a4a] leading-relaxed">
+              <div className="space-y-5 text-lg text-[#4a4a4a] leading-relaxed">
                 <p>
-                  As a Licensed Esthetician with five years of experience and the proud owner of Skin by Emely LLC for the past three years in Florida, I've dedicated my career to providing personalized and intentional skincare services. My mission is to create a safe and welcoming environment where every guest can not only achieve healthy skin but also find a sense of relaxation for their mind, body, and soul.
+                  As a Licensed Esthetician with five years of experience and the proud owner of Skin by Emely LLC for the past four years in Florida, I've dedicated my career to providing personalized and intentional skincare services. My mission is to create a safe and welcoming environment where every guest can not only achieve healthy skin but also find a sense of relaxation for their mind, body, and soul.
                 </p>
                 <p>
                   At Skin by Emely, my approach to skincare goes beyond the surface. I have built a reputation for my magic touch, particularly known for the exceptional neck, shoulder, and scalp massages I integrate into my treatments. These elements not only enhance the effectiveness of the services but also elevate the overall experience for my guests.
@@ -92,7 +93,7 @@ export default function About() {
                 </p>
               </div>
 
-              <div className="mt-10 pt-8 border-t border-[#b8956a]/15">
+              <div className="mt-8 pt-6 border-t border-[#b8956a]/15">
                 <p className="text-xs uppercase tracking-[0.2em] text-[#b8956a] mb-4 font-medium">
                   Professional Credentials
                 </p>
@@ -120,10 +121,17 @@ export default function About() {
         </div>
       </section>
 
+      {/* Google Reviews */}
+      <section className="pt-12 pb-10 md:pt-14 md:pb-12 px-4 bg-[#faf8f5]">
+        <FadeInSection className="max-w-3xl mx-auto">
+          <GoogleFiveStarVisual />
+        </FadeInSection>
+      </section>
+
       {/* 2. Curated Products */}
-      <section className="py-24 px-4 bg-[#faf8f5]">
+      <section className="pb-16 md:pb-20 px-4 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto">
-          <FadeInSection className="text-center mb-16">
+          <FadeInSection className="text-center mb-10 md:mb-12">
             <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
               Curated For You
@@ -199,7 +207,7 @@ export default function About() {
             </div>
           )}
           
-          <FadeInSection delay={0.3} className="text-center mt-12">
+          <FadeInSection delay={0.3} className="text-center mt-10">
             <Link to="/products">
               <Button className="btn-outline-bronze px-8 py-3 rounded hover:shadow-md transition-all">
                 View All Favorites
@@ -213,9 +221,9 @@ export default function About() {
       <TestimonialsSection />
 
       {/* 4. Contact & Hours */}
-      <section className="py-24 px-4 bg-[#faf8f5]">
+      <section className="py-16 md:py-20 px-4 bg-[#faf8f5]">
         <div className="max-w-5xl mx-auto">
-          <FadeInSection className="text-center mb-16">
+          <FadeInSection className="text-center mb-10 md:mb-12">
              <div className="w-16 h-px bg-gradient-bronze mx-auto mb-6" />
              <h2 className="text-4xl font-serif text-[#2c2c2c] mb-4">Contact & Hours</h2>
           </FadeInSection>
