@@ -129,7 +129,7 @@ export default function DermaplaneDeluxe() {
   const faqs = [
     {
       question: "Will dermaplaning make my hair grow back thicker or darker?",
-      answer: "No! This is the most common myth about dermaplaning. The vellus hair (peach fuzz) on your face will grow back at the same rate, texture, and color as before. Dermaplaning only removes the hair at the surface level—it doesn't affect the hair follicle or change hair growth patterns. Your hair will simply grow back exactly as it was."
+      answer: "No! This is the most common myth about dermaplaning. The vellus hair (peach fuzz) on your face will grow back at the same rate, texture, and color as before. Dermaplaning only removes the hair at the surface level. It doesn't affect the hair follicle or change hair growth patterns. Your hair will simply grow back exactly as it was."
     },
     {
       question: "Is there any downtime after dermaplaning?",
@@ -205,7 +205,7 @@ export default function DermaplaneDeluxe() {
             </p>
             
             <p className="text-base text-white/80 max-w-lg mx-auto">
-              One of the best facials in Tampa Bay for instant glow and silky-smooth texture—a Brandon favorite
+              One of the best facials in Tampa Bay for instant glow and silky-smooth texture, a Brandon favorite
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -444,10 +444,10 @@ export default function DermaplaneDeluxe() {
           >
             <h3 className="text-2xl font-serif text-white mb-4">The SkinByEmely Difference</h3>
             <p className="text-white/80 leading-relaxed mb-4 font-light">
-              Most places offer dermaplaning as a quick add-on service. At SkinByEmely, the Dermaplane Deluxe is a comprehensive 90-minute experience that includes everything: a full customized facial, manual extractions, hot stone massage, oxygen infusion, and dermaplaning—all thoughtfully sequenced for maximum results and relaxation.
+              Most places offer dermaplaning as a quick add-on service. At SkinByEmely, the Dermaplane Deluxe is a comprehensive 90-minute experience that includes everything: a full customized facial, manual extractions, hot stone massage, oxygen infusion, and dermaplaning, all thoughtfully sequenced for maximum results and relaxation.
             </p>
             <p className="text-white/80 leading-relaxed font-light">
-              We use surgical-grade blades and precise technique to ensure safety and effectiveness. This isn't a rushed treatment—it's a luxurious investment in your skin's health and radiance.
+              We use surgical-grade blades and precise technique to ensure safety and effectiveness. This isn't a rushed treatment. It's a luxurious investment in your skin's health and radiance.
             </p>
           </motion.div>
         </div>

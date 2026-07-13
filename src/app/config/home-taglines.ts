@@ -19,12 +19,12 @@ export interface HomeTaglineBlock {
   subtitle?: string;
 }
 
-/** 10 homepage block options — each with distinct layout and features */
+/** 10 homepage block options, each with distinct layout and features */
 export const HOME_TAGLINE_BLOCKS: HomeTaglineBlock[] = [
   {
     id: 'intentional-touch',
     label: 'Classic Statement',
-    description: 'Bronze divider with elegant serif headline — clean and minimal.',
+    description: 'Bronze divider with elegant serif headline, clean and minimal.',
     variant: 'classic',
     headline: 'Intentional Touch',
   },
@@ -34,7 +34,7 @@ export const HOME_TAGLINE_BLOCKS: HomeTaglineBlock[] = [
     description: 'Main phrase with a supporting line of brand copy underneath.',
     variant: 'headline-subtitle',
     headline: 'Intentional Touch',
-    subtitle: 'Clinical luxury skincare, thoughtfully tailored to you.',
+    subtitle: 'Intentional luxury skincare, thoughtfully tailored to you.',
   },
   {
     id: 'dual-cta',
@@ -47,7 +47,7 @@ export const HOME_TAGLINE_BLOCKS: HomeTaglineBlock[] = [
   {
     id: 'trust-pillars',
     label: 'Trust Pillars',
-    description: 'Three icon badges — Licensed, Circadia, Personalized — under the headline.',
+    description: 'Three icon badges: Licensed, Circadia, Personalized, under the headline.',
     variant: 'trust-pillars',
     headline: 'Care With Purpose',
   },
@@ -61,9 +61,9 @@ export const HOME_TAGLINE_BLOCKS: HomeTaglineBlock[] = [
   {
     id: 'stat-strip',
     label: 'Stat Strip',
-    description: 'Quick credibility row — years of experience, licensing, and location.',
+    description: 'Quick credibility row with years of experience, licensing, and location.',
     variant: 'stat-strip',
-    headline: 'Clinical Luxury',
+    headline: 'Intentional Luxury',
   },
   {
     id: 'credential-highlight',
@@ -83,11 +83,11 @@ export const HOME_TAGLINE_BLOCKS: HomeTaglineBlock[] = [
   {
     id: 'split-editorial',
     label: 'Split Editorial',
-    description: 'Headline on the left, brand quote on the right — magazine-style layout.',
+    description: 'Headline on the left, brand quote on the right, magazine-style layout.',
     variant: 'split-editorial',
     headline: 'Where Skin Feels Seen',
     subtitle:
-      'Skincare is not just about products or techniques — it is about the relationship built with every guest.',
+      'Skincare is not just about products or techniques. It is about the relationship built with every guest.',
   },
   {
     id: 'action-bar',

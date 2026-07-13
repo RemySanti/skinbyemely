@@ -174,7 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Google 5-star social proof — off hero so the video stays unobstructed */}
+      {/* Google 5-star social proof, off hero so the video stays unobstructed */}
       <section className="py-12 md:py-14 px-4 bg-[#faf8f5] border-b border-[#b8956a]/10">
         <FadeInSection className="max-w-3xl mx-auto">
           <GoogleFiveStarVisual />
@@ -192,7 +192,7 @@ export default function Home() {
             className="grid md:grid-cols-4 gap-8 md:gap-10 text-center"
           >
             {[
-              { icon: <Award className="w-8 h-8" />, title: 'Expert Care', desc: 'Clinical precision meets luxury' },
+              { icon: <Award className="w-8 h-8" />, title: 'Expert Care', desc: 'Expert precision meets luxury' },
               { icon: <Shield className="w-8 h-8" />, title: 'Premium Results', desc: 'Science-backed treatments' },
               { icon: <Star className="w-8 h-8" />, title: 'Personalized Service', desc: 'Customized for you' },
               { icon: <Clock className="w-8 h-8" />, title: '5 Years', desc: 'Industry excellence' }
@@ -219,7 +219,7 @@ export default function Home() {
                 Where Results Meet Relaxation
               </h2>
               <p className="text-2xl md:text-3xl font-serif text-[#2c2c2c] leading-snug mb-5">
-                Clinical precision. Luxury care. Real results.
+                Expert precision. Luxury care. Real results.
               </p>
               <p className="text-xl md:text-2xl text-[#4a4a4a] leading-relaxed mb-10 max-w-xl">
                 Every treatment is tailored to your skin. Advanced techniques, premium products, and a restorative experience built around you.

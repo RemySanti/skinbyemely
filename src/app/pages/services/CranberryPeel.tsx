@@ -130,7 +130,7 @@ export default function CranberryPeel() {
   const faqs = [
     {
       question: "How much peeling should I expect?",
-      answer: "You can expect visible flaking 4-5 days post-peel. The peeling typically starts around day 3-4 and continues for several days. It's not dramatic sheets of skin—more like dry, flaky patches that you'll need to resist picking. The amount of peeling varies by individual, but everyone experiences some degree of visible exfoliation."
+      answer: "You can expect visible flaking 4-5 days post-peel. The peeling typically starts around day 3-4 and continues for several days. It's not dramatic sheets of skin, more like dry, flaky patches that you'll need to resist picking. The amount of peeling varies by individual, but everyone experiences some degree of visible exfoliation."
     },
     {
       question: "Can I still go to work during the peeling phase?",
@@ -202,7 +202,7 @@ export default function CranberryPeel() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
-              Clinical-Grade Skin Renewal for Acne & Texture
+              Advanced Skin Renewal for Acne & Texture
             </p>
             
             <p className="text-base text-white/80 max-w-lg mx-auto">
@@ -338,7 +338,7 @@ export default function CranberryPeel() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-serif text-[#2c2c2c] mb-6">Why Tampa Bay clients choose this treatment</h3>
           <p className="text-lg text-[#2c2c2c]/80 leading-relaxed font-light">
-            The Cranberry Turnover Peel is a powerhouse product that delivers real, visible transformation. It's not a gentle, no-downtime option—it's a clinical treatment for clients who are serious about clearing their skin and willing to commit to the process.
+            The Cranberry Turnover Peel is a powerhouse product that delivers real, visible transformation. It's not a gentle, no-downtime option. It's a transformative treatment for clients who are serious about clearing their skin and willing to commit to the process.
           </p>
         </div>
       </section>
@@ -450,7 +450,7 @@ export default function CranberryPeel() {
           <div className="mt-16 bg-white/5 p-10 border border-[#d4af37]/20 text-center max-w-4xl mx-auto">
             <h3 className="text-2xl font-serif text-white mb-4">The SkinByEmely Difference</h3>
             <p className="text-white/80 leading-relaxed">
-              We include a full customized facial with every peel, not just a quick peel application. This means deep cleansing, thorough extractions (crucial for acne-prone skin), custom mask, and strategic product application. We also take the time to educate you on proper pre-care and aftercare—because following the protocol makes all the difference in your results.
+              We include a full customized facial with every peel, not just a quick peel application. This means deep cleansing, thorough extractions (crucial for acne-prone skin), custom mask, and strategic product application. We also take the time to educate you on proper pre-care and aftercare because following the protocol makes all the difference in your results.
             </p>
           </div>
         </div>

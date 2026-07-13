@@ -102,7 +102,7 @@ export function buildGoogleFontsStylesheetUrl(googleFamilies: string[]): string 
   return `https://fonts.googleapis.com/css2?${families}&display=swap`;
 }
 
-/** Logo fonts only — block prevents fallback type from showing before the real face loads. */
+/** Logo fonts only. Block prevents fallback type from showing before the real face loads. */
 export function buildLogoFontsStylesheetUrl(scriptFontId: string, skinFontId: string): string {
   const families = getBrandingGoogleFamilies(scriptFontId, skinFontId)
     .map((g) => `family=${g}`)
@@ -211,7 +211,7 @@ export function injectGoogleFontLinks(
   };
 }
 
-/** All logo fonts — for owner dashboard previews */
+/** All logo fonts for owner dashboard previews */
 export function getAllLogoGoogleFamilies(): string[] {
   return [
     ...new Set([

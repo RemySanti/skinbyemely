@@ -10,6 +10,7 @@ import { Label } from './ui/label';
 import { Calendar, Clock, User, Mail, Phone, CheckCircle, AlertCircle } from 'lucide-react';
 import { bookingsService, customersService } from '../services/squareService';
 import { isSquareConfigured } from '../config/square';
+import { GOOGLE_BUSINESS_PROFILE_URL } from './GoogleFiveStarVisual';
 
 interface SquareBookingProps {
   serviceId?: string;
@@ -445,7 +446,15 @@ export function SquareBooking({
             </div>
 
             <p className="text-sm text-[#6b6b6b] mb-6">
-              Location: 1206 Millennium Parkway, Suite 2004, Brandon, FL 33511
+              Location:{' '}
+              <a
+                href={GOOGLE_BUSINESS_PROFILE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#b8956a] transition-colors underline underline-offset-2"
+              >
+                1206 Millennium Parkway, Suite 2004, Brandon, FL 33511
+              </a>
             </p>
 
             <Button

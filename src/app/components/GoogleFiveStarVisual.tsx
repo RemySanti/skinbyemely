@@ -1,6 +1,7 @@
 import { Star, ExternalLink } from 'lucide-react';
 
-const GOOGLE_MAPS_URL =
+/** Google Business Profile / Maps listing for Skin by Emely */
+export const GOOGLE_BUSINESS_PROFILE_URL =
   'https://www.google.com/maps/search/?api=1&query=Skin+by+Emely+1206+Millennium+Parkway+Suite+2004+Brandon+FL+33511';
 
 function GoogleMark({ className = 'w-6 h-6' }: { className?: string }) {
@@ -94,11 +95,11 @@ export function GoogleFiveStarVisual({ compact = false, className = '' }: Google
           Skin by Emely
         </p>
         <p className="text-sm text-[#6b6b6b] max-w-md mx-auto leading-relaxed mb-8">
-          Loved by clients across Brandon &amp; Tampa Bay — five-star care, every visit.
+          Loved by clients across Brandon &amp; Tampa Bay. Five-star care, every visit.
         </p>
 
         <a
-          href={GOOGLE_MAPS_URL}
+          href={GOOGLE_BUSINESS_PROFILE_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[#b8956a] hover:text-[#9d7d54] transition-colors group"

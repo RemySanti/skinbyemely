@@ -4,6 +4,7 @@ import { FadeInSection } from '../components/motion/FadeInSection';
 import { fadeUpVariants, staggerContainer } from '../utils/motion';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import contactImage from 'figma:asset/52e70ed822f015234a068fbbac1d71aa8bb344e3.png';
+import { GOOGLE_BUSINESS_PROFILE_URL } from '../components/GoogleFiveStarVisual';
 
 export default function Contact() {
   return (
@@ -39,7 +40,7 @@ export default function Contact() {
                   title: 'STUDIO', 
                   line1: '1206 Millennium Parkway, Suite 2004', 
                   line2: 'Brandon, FL 33511', 
-                  link: 'https://www.google.com/maps/search/?api=1&query=1206+Millennium+Parkway+Suite+2004+Brandon+FL+33511', 
+                  link: GOOGLE_BUSINESS_PROFILE_URL, 
                   linkText: 'Get Directions' 
                 },
                 { 
@@ -72,8 +73,22 @@ export default function Contact() {
                     {item.icon}
                   </div>
                   <h3 className="text-xs font-medium tracking-[0.2em] text-[#b8956a] mb-4 uppercase">{item.title}</h3>
-                  <p className="text-[#2c2c2c] text-lg font-serif mb-1">{item.line1}</p>
-                  <p className="text-[#6b6b6b] text-sm mb-6 font-light">{item.line2}</p>
+                  {item.title === 'STUDIO' ? (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block mb-6 group/address"
+                    >
+                      <p className="text-[#2c2c2c] text-lg font-serif mb-1 group-hover/address:text-[#b8956a] transition-colors">{item.line1}</p>
+                      <p className="text-[#6b6b6b] text-sm font-light group-hover/address:text-[#b8956a] transition-colors">{item.line2}</p>
+                    </a>
+                  ) : (
+                    <>
+                      <p className="text-[#2c2c2c] text-lg font-serif mb-1">{item.line1}</p>
+                      <p className="text-[#6b6b6b] text-sm mb-6 font-light">{item.line2}</p>
+                    </>
+                  )}
                   {item.linkText && (
                     <a 
                       href={item.link}

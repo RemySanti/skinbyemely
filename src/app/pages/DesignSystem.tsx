@@ -101,7 +101,7 @@ export default function DesignSystem() {
             <div className="space-y-8 p-8 bg-white rounded-lg border border-[#b8956a]/10">
               <div className="space-y-2">
                 <p className="text-sm text-[#6b6b6b] uppercase tracking-wider">Heading 1 (Cormorant Garamond)</p>
-                <h1 className="text-5xl font-serif text-[#2c2c2c]">Elegant Clinical Luxury</h1>
+                <h1 className="text-5xl font-serif text-[#2c2c2c]">Elegant Intentional Luxury</h1>
               </div>
               
               <div className="space-y-2">
@@ -122,7 +122,7 @@ export default function DesignSystem() {
               <div className="space-y-2">
                 <p className="text-sm text-[#6b6b6b] uppercase tracking-wider">Body Text (Inter)</p>
                 <p className="text-[#4a4a4a] leading-relaxed max-w-2xl">
-                  Our treatments are designed to provide a luxurious experience while delivering clinical results. 
+                  Our treatments are designed to provide a luxurious experience while delivering real results. 
                   We use the finest ingredients and latest technology to ensure your skin receives the best care possible.
                   Experience the perfect fusion of expertise, science, and sophistication.
                 </p>

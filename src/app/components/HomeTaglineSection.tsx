@@ -16,7 +16,7 @@ import { SQUARE_BOOKING_URL } from './BookingRedirect';
 
 const ROTATING_WORDS = ['Facials', 'Peels', 'Custom Care', 'Relaxation'];
 const MARQUEE_ITEMS = [
-  'Clinical Luxury',
+  'Intentional Luxury',
   'Personalized Care',
   'Circadia',
   'Licensed Esthetician',

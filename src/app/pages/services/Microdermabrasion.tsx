@@ -131,7 +131,7 @@ export default function Microdermabrasion() {
   const faqs = [
     {
       question: "Is microdermabrasion painful?",
-      answer: "Not at all. Most clients describe the sensation as a gentle scratching or vibration on the skin. It's completely tolerable and many find it quite relaxing. There's no pain involved—just effective exfoliation that reveals fresher, smoother skin."
+      answer: "Not at all. Most clients describe the sensation as a gentle scratching or vibration on the skin. It's completely tolerable and many find it quite relaxing. There's no pain involved, just effective exfoliation that reveals fresher, smoother skin."
     },
     {
       question: "Will I have downtime after treatment?",
@@ -151,7 +151,7 @@ export default function Microdermabrasion() {
     },
     {
       question: "Is this safe for sensitive skin?",
-      answer: "It depends on your specific sensitivity type. During your consultation, we'll assess whether microdermabrasion is appropriate for your skin or if a gentler exfoliation method would be better suited. We never compromise skin health for results—your skin barrier integrity is our top priority."
+      answer: "It depends on your specific sensitivity type. During your consultation, we'll assess whether microdermabrasion is appropriate for your skin or if a gentler exfoliation method would be better suited. We never compromise skin health for results. Your skin barrier integrity is our top priority."
     }
   ];
 
@@ -195,7 +195,7 @@ export default function Microdermabrasion() {
             className="space-y-6"
           >
             <div className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-full mb-4">
-              <span className="text-xs md:text-sm tracking-[0.2em] text-white/90 uppercase font-medium">Clinical Exfoliation</span>
+              <span className="text-xs md:text-sm tracking-[0.2em] text-white/90 uppercase font-medium">Advanced Exfoliation</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white leading-tight">
@@ -207,7 +207,7 @@ export default function Microdermabrasion() {
             </p>
             
             <p className="text-base text-white/80 max-w-lg mx-auto">
-              A trusted facial in Brandon, Florida for clients seeking clinical-grade exfoliation with visible results
+              A trusted facial in Brandon, Florida for clients seeking advanced exfoliation with visible results
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -280,7 +280,7 @@ export default function Microdermabrasion() {
                       <CheckCircle2 className="w-5 h-5 text-[#b8956a] shrink-0 mt-0.5" />
                       <div>
                         <p className="font-medium text-[#2c2c2c]">Results-driven clients</p>
-                        <p className="text-sm text-[#6b6b6b] font-light">Seeking clinical-grade exfoliation</p>
+                        <p className="text-sm text-[#6b6b6b] font-light">Seeking advanced exfoliation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -662,7 +662,7 @@ export default function Microdermabrasion() {
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-serif text-white mb-6">Book One of the Best Facials in Brandon</h3>
               <p className="text-lg mb-10 text-white/80 max-w-2xl mx-auto font-light">
-                Join Tampa Bay clients experiencing clinical-grade exfoliation in a luxurious setting
+                Join Tampa Bay clients experiencing advanced exfoliation in a luxurious setting
               </p>
               <a href={squareBookingUrl} target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-[#2c2c2c] hover:bg-[#d4af37] hover:text-white px-12 py-6 text-base tracking-widest uppercase rounded-sm transition-all duration-300">

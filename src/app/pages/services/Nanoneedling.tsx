@@ -129,7 +129,7 @@ export default function Nanoneedling() {
   const faqs = [
     {
       question: "Does nanoneedling hurt?",
-      answer: "Not at all. Unlike traditional microneedling which uses actual needles, nanoneedling uses microscopic silicone tips that don't penetrate the skin—they create micro-channels on the surface. Most clients find the sensation relaxing, similar to a gentle massage. There's no pain, no bleeding, and no discomfort."
+      answer: "Not at all. Unlike traditional microneedling which uses actual needles, nanoneedling uses microscopic silicone tips that don't penetrate the skin. They create micro-channels on the surface. Most clients find the sensation relaxing, similar to a gentle massage. There's no pain, no bleeding, and no discomfort."
     },
     {
       question: "Is there any downtime after nanoneedling?",
@@ -399,10 +399,10 @@ export default function Nanoneedling() {
           <div className="bg-white p-10 border-l-4 border-[#b8956a]">
             <h3 className="text-2xl font-serif text-[#2c2c2c] mb-4">The SkinByEmely Difference</h3>
             <p className="text-[#6b6b6b] leading-relaxed mb-4">
-              We don't just perform nanoneedling—we include a complete customized facial treatment with every session. This means cleansing, enzyme exfoliation, extractions, massage, custom mask, and oxygen infusion, all carefully sequenced to prepare your skin for optimal nano infusion results.
+              We don't just perform nanoneedling. We include a complete customized facial treatment with every session. This means cleansing, enzyme exfoliation, extractions, massage, custom mask, and oxygen infusion, all carefully sequenced to prepare your skin for optimal nano infusion results.
             </p>
             <p className="text-[#6b6b6b] leading-relaxed">
-              We also use clinical-grade serums during the nanoneedling process, not basic formulations. The micro-channels created allow these potent ingredients to penetrate deeply for maximum efficacy. This comprehensive approach is what makes our nanoneedling treatment truly transformative—not just a quick add-on service.
+              We also use professional-grade serums during the nanoneedling process, not basic formulations. The micro-channels created allow these potent ingredients to penetrate deeply for maximum efficacy. This comprehensive approach is what makes our nanoneedling treatment truly transformative, not just a quick add-on service.
             </p>
           </div>
         </div>
@@ -630,7 +630,7 @@ export default function Nanoneedling() {
           <div className="mt-16 text-center p-12 bg-gradient-bronze text-white">
             <h3 className="text-3xl font-serif mb-4">Experience the Best Facial Brandon FL Offers for Anti-Aging</h3>
             <p className="text-lg mb-8 text-white/90 max-w-2xl mx-auto">
-              Join Tampa Bay clients discovering the power of nanoneedling—all the benefits, none of the downtime
+              Join Tampa Bay clients discovering the power of nanoneedling: all the benefits, none of the downtime
             </p>
             <a href={squareBookingUrl} target="_blank" rel="noopener noreferrer">
               <Button className="bg-white text-[#2c2c2c] hover:bg-white/90 px-12 py-6 text-base font-medium">

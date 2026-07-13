@@ -212,7 +212,7 @@ app.get("/make-server-fd83a735/stripe-products", async (c) => {
     
     const secretKey = Deno.env.get("STRIPE_SECRET_KEY");
     if (!secretKey) {
-      console.error("Missing STRIPE_SECRET_KEY — cannot auto-fetch products");
+      console.error("Missing STRIPE_SECRET_KEY. Cannot auto-fetch products");
       return c.json({ 
         success: true,
         products: [],
@@ -542,7 +542,7 @@ app.get("/make-server-fd83a735/square-services", async (c) => {
       });
     }
 
-    // No cache available — frontend must call /square-services-refresh with the access token
+    // No cache available. Frontend must call /square-services-refresh with the access token
     console.log("No cached Square services found. Call /square-services-refresh to populate.");
     return c.json({ success: true, services: [], cached: false, message: "No services cached. Call /square-services-refresh with accessToken to populate." });
 

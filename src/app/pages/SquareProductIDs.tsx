@@ -289,7 +289,7 @@ export default function SquareProductIDs() {
                   <strong className="text-[#2c2c2c]">Map Products to Your Website:</strong>
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Clinical Gentle Cleanser → Find matching product above and copy its ID</li>
+                  <li>Gentle Cleanser → Find matching product above and copy its ID</li>
                   <li>Vitamin C + E Serum → Find matching product above and copy its ID</li>
                   <li>Hyaluronic Complex → Find matching product above and copy its ID</li>
                   <li>Retinol Treatment → Find matching product above and copy its ID</li>

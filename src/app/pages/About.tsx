@@ -10,7 +10,7 @@ import { FadeInSection } from '../components/motion/FadeInSection';
 import { TestimonialsSection } from '../components/TestimonialsSection';
 import { toast } from 'sonner';
 import { SQUARE_BOOKING_URL } from '../components/BookingRedirect';
-import { GoogleFiveStarVisual } from '../components/GoogleFiveStarVisual';
+import { GoogleFiveStarVisual, GOOGLE_BUSINESS_PROFILE_URL } from '../components/GoogleFiveStarVisual';
 
 export default function About() {
   const [featuredProducts, setFeaturedProducts] = useState<StripeProduct[]>([]);
@@ -83,13 +83,13 @@ export default function About() {
               
               <div className="space-y-5 text-lg text-[#4a4a4a] leading-relaxed">
                 <p>
-                  As a Licensed Esthetician with five years of experience and the proud owner of Skin by Emely LLC for the past four years in Florida, I've dedicated my career to providing personalized and intentional skincare services. My mission is to create a safe and welcoming environment where every guest can not only achieve healthy skin but also find a sense of relaxation for their mind, body, and soul.
+                  As a Licensed Esthetician with five years of experience and the proud owner of Skin by Emely LLC for the past four years in Florida, I&apos;ve dedicated my career to providing personalized and intentional skincare services. My mission is to create a safe and welcoming environment where every guest can not only achieve healthy skin but also find a sense of relaxation for their mind, body, and soul.
                 </p>
                 <p>
                   At Skin by Emely, my approach to skincare goes beyond the surface. I have built a reputation for my magic touch, particularly known for the exceptional neck, shoulder, and scalp massages I integrate into my treatments. These elements not only enhance the effectiveness of the services but also elevate the overall experience for my guests.
                 </p>
                 <p>
-                  Skincare is not just about the products or techniques; it's about the relationship I build with my clients. I take pride in the bonds I've formed and strive to ensure that everyone who steps into my space leaves feeling not only beautiful but also deeply cared for.
+                  Skincare is not just about the products or techniques; it&apos;s about the relationship I build with my clients. I take pride in the bonds I&apos;ve formed and strive to ensure that everyone who steps into my space leaves feeling not only beautiful but also deeply cared for.
                 </p>
               </div>
 
@@ -111,7 +111,7 @@ export default function About() {
                       Circadia Skin Specialist
                     </p>
                     <p className="text-[#6b6b6b] text-base leading-relaxed">
-                      Certified in acne-focused skincare through Circadia, a professional-grade line trusted in clinical settings.
+                      Certified in acne-focused skincare through Circadia, a professional-grade line trusted in professional settings.
                     </p>
                   </div>
                 </div>
@@ -266,10 +266,15 @@ export default function About() {
                   </div>
                   <div>
                     <p className="font-serif text-lg text-[#2c2c2c] mb-1">Visit Us</p>
-                    <p className="text-[#6b6b6b] leading-relaxed">
+                    <a
+                      href={GOOGLE_BUSINESS_PROFILE_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#6b6b6b] leading-relaxed hover:text-[#b8956a] transition-colors"
+                    >
                       1206 Millennium Parkway, Suite 2004<br/>
                       Brandon, FL 33511
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>

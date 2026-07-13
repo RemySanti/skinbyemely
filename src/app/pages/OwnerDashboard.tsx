@@ -283,7 +283,7 @@ export default function OwnerDashboard() {
             ) : (
               <>
                 <div>
-                  <h4 className="text-sm font-medium text-[#2c2c2c] mb-1">SKIN — 30 wordmark styles</h4>
+                  <h4 className="text-sm font-medium text-[#2c2c2c] mb-1">SKIN, 30 wordmark styles</h4>
                   <p className="text-xs text-[#6b6b6b] mb-3">Elegant serif and display fonts for the main logo word.</p>
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                     {SKIN_LOGO_FONTS.map((font) => {
@@ -317,7 +317,7 @@ export default function OwnerDashboard() {
                 </div>
 
                 <div>
-                  <h4 className="text-sm font-medium text-[#2c2c2c] mb-1">Your name — 30 script styles</h4>
+                  <h4 className="text-sm font-medium text-[#2c2c2c] mb-1">Your name, 30 script styles</h4>
                   <p className="text-xs text-[#6b6b6b] mb-3">Signature script fonts for the line under SKIN.</p>
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                     {SCRIPT_LOGO_FONTS.map((font) => {

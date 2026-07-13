@@ -277,7 +277,7 @@ export class SquareCatalogService {
         type: 'ITEM',
         id: 'mock-1',
         item_data: {
-          name: 'Clinical Gentle Cleanser (Mock)',
+          name: 'Gentle Cleanser (Mock)',
           description: 'pH-balanced formula removing impurities while preserving barrier integrity',
           variations: [
             {
@@ -299,7 +299,7 @@ export class SquareCatalogService {
         id: 'mock-2',
         item_data: {
           name: 'Vitamin C + E Serum (Mock)',
-          description: 'Clinical-grade antioxidants for brightening and environmental protection',
+          description: 'Professional-grade antioxidants for brightening and environmental protection',
           variations: [
             {
               id: 'var-2',

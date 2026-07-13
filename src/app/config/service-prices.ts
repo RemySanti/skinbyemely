@@ -41,7 +41,7 @@ const DEFAULT_SERVICE_PRICES: ServicePrice[] = [
     price: '$135',
     priceNum: 135,
     duration: '60 Min',
-    description: 'Clinical-grade exfoliation to renew skin texture and reveal your radiance with minimal downtime.',
+    description: 'Advanced exfoliation to renew skin texture and reveal your radiance with minimal downtime.',
     link: '/services/microdermabrasion',
   },
   {
@@ -106,7 +106,7 @@ export async function fetchServicePrices(): Promise<ServicePrice[]> {
       }
     }
 
-    // 2. Cache was empty — auto-refresh by posting the Square access token
+    // 2. Cache was empty. Auto-refresh by posting the Square access token
     if (SQUARE_CONFIG.accessToken && SQUARE_CONFIG.accessToken !== 'YOUR_SQUARE_ACCESS_TOKEN_HERE') {
       console.log('Service cache empty, auto-refreshing from Square...');
       const refreshResponse = await fetch(`${API_BASE}/square-services-refresh`, {

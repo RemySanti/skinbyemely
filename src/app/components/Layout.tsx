@@ -6,6 +6,7 @@ import { cartService } from '../services/cartService';
 import { CartDrawer } from './CartDrawer';
 import { SiteLogo } from './SiteLogo';
 import { fadeUpVariants, staggerContainer, EASE_LUXURY } from '../utils/motion';
+import { GOOGLE_BUSINESS_PROFILE_URL } from './GoogleFiveStarVisual';
 
 const NAV_ITEMS = [
   { path: '/products', label: 'Shop' },
@@ -65,7 +66,7 @@ export default function Layout() {
             (914) 299-7739
           </a>
           <a 
-            href="https://www.google.com/maps/search/?api=1&query=1206+Millennium+Parkway+Suite+2004+Brandon+FL+33511"
+            href={GOOGLE_BUSINESS_PROFILE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#b8956a] transition-colors text-right"
@@ -316,14 +317,21 @@ export default function Layout() {
               <SiteLogo variant="footer" />
               <div className="w-12 h-px bg-gradient-bronze mb-6" />
               <p className="text-[#faf8f5]/80 leading-relaxed">
-                Brandon's premier destination for clinical luxury skincare. Experience the perfect fusion of expertise, science, and sophistication.
+                Brandon&apos;s premier destination for intentional luxury skincare. Experience the perfect fusion of expertise, science, and sophistication.
               </p>
             </div>
             <div>
               <h4 className="mb-6 tracking-wider">LOCATION</h4>
               <div className="space-y-3 text-[#faf8f5]/80">
-                <p>1206 Millennium Parkway, Suite 2004</p>
-                <p>Brandon, FL 33511</p>
+                <a
+                  href={GOOGLE_BUSINESS_PROFILE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-[#d4bb8f] transition-colors"
+                >
+                  <p>1206 Millennium Parkway, Suite 2004</p>
+                  <p>Brandon, FL 33511</p>
+                </a>
                 <a href="tel:9142997739" className="block hover:text-[#d4bb8f] transition-colors">
                   (914) 299-7739
                 </a>
