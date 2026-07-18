@@ -55,7 +55,7 @@ export default function Contact() {
                   icon: <Clock className="w-5 h-5" />, 
                   title: 'HOURS', 
                   line1: 'By Appointment Only', 
-                  line2: 'Tuesday - Sunday', 
+                  line2: 'Wednesday - Sunday', 
                   link: '', 
                   linkText: '' 
                 },

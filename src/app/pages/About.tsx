@@ -289,10 +289,10 @@ export default function About() {
               <div className="space-y-4">
                 {[
                   { day: "Monday", hours: "Closed" },
-                  { day: "Tuesday", hours: "11:00 am – 4:00 pm" },
+                  { day: "Tuesday", hours: "Closed" },
                   { day: "Wednesday", hours: "10:30 am – 8:00 pm" },
                   { day: "Thursday", hours: "10:30 am – 8:00 pm" },
-                  { day: "Friday", hours: "10:00 am – 8:00 pm" },
+                  { day: "Friday", hours: "10:30 am – 8:00 pm" },
                   { day: "Saturday", hours: "9:00 am – 4:00 pm" },
                   { day: "Sunday", hours: "9:00 am – 3:00 pm" },
                 ].map((schedule, idx) => (
