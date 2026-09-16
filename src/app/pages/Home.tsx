@@ -149,10 +149,10 @@ export default function Home() {
           >
             <motion.div variants={fadeUpVariants} className="w-16 h-px bg-gradient-bronze mb-8" />
             <motion.h1 variants={fadeUpVariants} className="text-5xl md:text-7xl text-white mb-6 leading-tight">
-              Personalized Skincare
+              Healthy Skin First
             </motion.h1>
             <motion.p variants={fadeUpVariants} className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed max-w-xl">
-              Expert care, thoughtfully tailored to your skin.
+              Results + Relaxation Always
             </motion.p>
             <motion.div variants={fadeUpVariants} className="flex flex-wrap gap-6">
               <a
