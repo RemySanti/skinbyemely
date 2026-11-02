@@ -4,10 +4,23 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/services/:path*",
+      "destination": "https://book.squareup.com/appointments/f7dcst2ljp85dq/location/LMVSQK9C6PR4T/services?buttonTextColor=ffffff&color=000000&locale=en&referrer=so",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
-      "source": "/((?!assets/).*)",
-      "destination": "/index.html"
+      "source": "/:page(cart|order-success|owner-dashboard|square-setup|square-service-ids|square-product-ids|product-catalog|quick-products|stripe-migration|design-system)",
+      "destination": "/app-shell.html"
+    },
+    {
+      "source": "/products/:id",
+      "destination": "/app-shell.html"
     }
   ],
   "headers": [
@@ -17,6 +30,15 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/:page(cart|order-success|owner-dashboard|square-setup|square-service-ids|square-product-ids|product-catalog|quick-products|stripe-migration|design-system|app-shell)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
         }
       ]
     }

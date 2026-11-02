@@ -24,6 +24,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  // Bundle all deps into the prerender (SSR) build so Node never has to load their CJS/ESM variants
+  ssr: {
+    noExternal: true,
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/app'),

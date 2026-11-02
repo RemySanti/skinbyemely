@@ -25,7 +25,18 @@ export interface StripeProduct {
   metadata: Record<string, string>;
 }
 
+let seededProducts: StripeProduct[] | null = null;
+
 export const stripeService = {
+  /** Products known before any fetch (build-time prerender data). */
+  seedProducts(products: StripeProduct[]) {
+    seededProducts = products;
+  },
+
+  getCachedProducts(): StripeProduct[] | null {
+    return seededProducts;
+  },
+
   /**
    * Check if backend is healthy and configured
    */

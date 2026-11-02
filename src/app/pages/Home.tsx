@@ -3,9 +3,10 @@ import { Button } from '../components/ui/button';
 import { Award, Shield, Star, Clock, ShoppingBag, Loader2 } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
-import scienceSophisticationImage from 'figma:asset/b66e647ec4d5cc9d4d4331ac9d43ce631d6207b8.png';
+import scienceSophisticationImage from 'figma:asset/b66e647ec4d5cc9d4d4331ac9d43ce631d6207b8.webp';
 
 const HERO_VIDEO_SRC = '/hero-video.mp4';
+const HERO_POSTER_SRC = '/hero-poster.webp';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '../components/ui/dialog';
 import { StripeCheckout } from '../components/StripeCheckout';
 import { stripeService, StripeProduct } from '../services/stripeService';
@@ -116,7 +117,8 @@ export default function Home() {
           initial={{ scale: 1.05 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: EASE_LUXURY }}
-          className="absolute inset-0 bg-[#2c2c2c]"
+          className="absolute inset-0 bg-[#2c2c2c] bg-cover bg-center"
+          style={{ backgroundImage: `url(${HERO_POSTER_SRC})` }}
         >
           <video
             autoPlay
@@ -124,6 +126,7 @@ export default function Home() {
             loop
             playsInline
             preload="auto"
+            poster={HERO_POSTER_SRC}
             onCanPlay={() => setHeroVideoReady(true)}
             className={`w-full h-full object-cover motion-reduce:hidden transition-opacity duration-500 ${
               heroVideoReady ? 'opacity-100' : 'opacity-0'

@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { ShoppingBag, Loader2, ArrowLeft, Minus, Plus } from 'lucide-react';
@@ -6,12 +6,15 @@ import { stripeService, StripeProduct } from '../services/stripeService';
 import { cartService } from '../services/cartService';
 import { toast } from 'sonner';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import { Seo } from '../components/Seo';
+import { NOT_FOUND_SEO, PUBLIC_PAGES, SITE_URL, toMetaDescription } from '../config/seo';
 
 export default function ProductDetails() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [product, setProduct] = useState<StripeProduct | null>(null);
-  const [loading, setLoading] = useState(true);
+  const seeded = stripeService.getCachedProducts()?.find(p => p.id === id) ?? null;
+  const [product, setProduct] = useState<StripeProduct | null>(seeded);
+  const [loading, setLoading] = useState(!seeded);
   const [error, setError] = useState<string | null>(null);
   const [quantity, setQuantity] = useState(1);
   const [addingToCart, setAddingToCart] = useState(false);
@@ -19,7 +22,7 @@ export default function ProductDetails() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        setLoading(true);
+        if (!seeded) setLoading(true);
         const products = await stripeService.getProducts();
         const found = products.find(p => p.id === id);
         
@@ -83,6 +86,7 @@ export default function ProductDetails() {
   if (error || !product) {
     return (
       <div className="min-h-screen bg-[#faf8f5] flex flex-col items-center justify-center p-4">
+        <Seo {...NOT_FOUND_SEO} />
         <p className="text-[#6b6b6b] mb-4">{error || 'Product not found'}</p>
         <Link to="/products">
           <Button className="btn-bronze rounded px-8">Back to Shop</Button>
@@ -91,8 +95,35 @@ export default function ProductDetails() {
     );
   }
 
+  const description = toMetaDescription(product.description, PUBLIC_PAGES['/products'].description);
+
   return (
     <div className="min-h-screen bg-[#faf8f5] py-16 px-4">
+      <Seo
+        title={`${product.name} | Skin by Emely`}
+        description={description}
+        path={`/products/${product.id}`}
+        image={product.images?.[0]}
+        type="product"
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Product',
+          name: product.name,
+          description,
+          image: product.images,
+          url: `${SITE_URL}/products/${product.id}`,
+          brand: { '@type': 'Brand', name: 'Skin by Emely' },
+          ...(product.price != null && {
+            offers: {
+              '@type': 'Offer',
+              price: product.price.toFixed(2),
+              priceCurrency: (product.currency || 'usd').toUpperCase(),
+              availability: 'https://schema.org/InStock',
+              url: `${SITE_URL}/products/${product.id}`,
+            },
+          }),
+        }}
+      />
       <div className="max-w-7xl mx-auto">
         {/* Breadcrumb / Back */}
         <div className="mb-8">

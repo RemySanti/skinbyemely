@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { lazy, Suspense, useEffect, type ReactNode } from 'react';
 import Layout from './components/Layout';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
@@ -9,18 +9,23 @@ import Cart from './pages/Cart';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import SquareSetup from './pages/SquareSetup';
-import SquareServiceIDs from './pages/SquareServiceIDs';
-import SquareProductIDs from './pages/SquareProductIDs';
-import ProductCatalog from './pages/ProductCatalog';
-import QuickProductList from './pages/QuickProductList';
-import StripeMigration from './pages/StripeMigration';
-import OwnerDashboard from './pages/OwnerDashboard';
-import DesignSystem from './pages/DesignSystem';
 import OrderSuccess from './pages/OrderSuccess';
 import BookingRedirect from './components/BookingRedirect';
+import { RouteSeo } from './components/Seo';
 import { BrandingProvider } from './context/BrandingContext';
 import { Toaster } from './components/ui/sonner';
+
+// Internal tools: loaded on demand so they stay out of the public bundle
+const SquareSetup = lazy(() => import('./pages/SquareSetup'));
+const SquareServiceIDs = lazy(() => import('./pages/SquareServiceIDs'));
+const SquareProductIDs = lazy(() => import('./pages/SquareProductIDs'));
+const ProductCatalog = lazy(() => import('./pages/ProductCatalog'));
+const QuickProductList = lazy(() => import('./pages/QuickProductList'));
+const StripeMigration = lazy(() => import('./pages/StripeMigration'));
+const OwnerDashboard = lazy(() => import('./pages/OwnerDashboard'));
+const DesignSystem = lazy(() => import('./pages/DesignSystem'));
+
+const internal = (page: ReactNode) => <Suspense fallback={null}>{page}</Suspense>;
 
 function App() {
   // Google Tag (gtag.js) - Google Ads AW-17772761578
@@ -59,7 +64,7 @@ function App() {
 
   return (
     <BrandingProvider>
-    <BrowserRouter>
+      <RouteSeo />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -71,19 +76,18 @@ function App() {
           <Route path="order-success" element={<OrderSuccess />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="square-setup" element={<SquareSetup />} />
-          <Route path="square-service-ids" element={<SquareServiceIDs />} />
-          <Route path="square-product-ids" element={<SquareProductIDs />} />
-          <Route path="product-catalog" element={<ProductCatalog />} />
-          <Route path="quick-products" element={<QuickProductList />} />
-          <Route path="stripe-migration" element={<StripeMigration />} />
-          <Route path="owner-dashboard" element={<OwnerDashboard />} />
-          <Route path="design-system" element={<DesignSystem />} />
+          <Route path="square-setup" element={internal(<SquareSetup />)} />
+          <Route path="square-service-ids" element={internal(<SquareServiceIDs />)} />
+          <Route path="square-product-ids" element={internal(<SquareProductIDs />)} />
+          <Route path="product-catalog" element={internal(<ProductCatalog />)} />
+          <Route path="quick-products" element={internal(<QuickProductList />)} />
+          <Route path="stripe-migration" element={internal(<StripeMigration />)} />
+          <Route path="owner-dashboard" element={internal(<OwnerDashboard />)} />
+          <Route path="design-system" element={internal(<DesignSystem />)} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
       <Toaster position="top-right" />
-    </BrowserRouter>
     </BrandingProvider>
   );
 }

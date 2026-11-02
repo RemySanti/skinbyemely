@@ -1,6 +1,6 @@
 import { Button } from '../components/ui/button';
 import { Award, Shield, Star, Heart, Clock, MapPin, Mail, Phone, Loader2, ShoppingBag } from 'lucide-react';
-import emelyPhoto from 'figma:asset/34268fb14c0e84b9f3e7d02962fe4885d03f7cf9.png';
+import emelyPhoto from 'figma:asset/34268fb14c0e84b9f3e7d02962fe4885d03f7cf9.webp';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
 import { stripeService, StripeProduct } from '../services/stripeService';
@@ -76,9 +76,9 @@ export default function About() {
             
             <FadeInSection delay={0.2}>
               <span className="text-sm tracking-wider text-[#b8956a] mb-4 block uppercase font-medium">Licensed esthetician & Owner</span>
-              <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-6">
+              <h1 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-6">
                 Emely
-              </h2>
+              </h1>
               <div className="w-16 h-px bg-gradient-bronze mb-6" />
               
               <div className="space-y-5 text-lg text-[#4a4a4a] leading-relaxed">

@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { FadeInSection } from '../components/motion/FadeInSection';
 import { fadeUpVariants, staggerContainer } from '../utils/motion';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import contactImage from 'figma:asset/52e70ed822f015234a068fbbac1d71aa8bb344e3.png';
+import contactImage from 'figma:asset/52e70ed822f015234a068fbbac1d71aa8bb344e3.webp';
 import { GOOGLE_BUSINESS_PROFILE_URL } from '../components/GoogleFiveStarVisual';
 
 export default function Contact() {

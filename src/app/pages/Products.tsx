@@ -15,9 +15,10 @@ type PriceRange = 'all' | '0-50' | '50-100' | '100-200' | '200-99999';
 
 export default function Products() {
   const navigate = useNavigate();
-  const [products, setProducts] = useState<StripeProduct[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [showLoading, setShowLoading] = useState(true);
+  const seeded = stripeService.getCachedProducts();
+  const [products, setProducts] = useState<StripeProduct[]>(seeded ?? []);
+  const [loading, setLoading] = useState(!seeded);
+  const [showLoading, setShowLoading] = useState(!seeded);
   const [error, setError] = useState<string | null>(null);
   const [addingToCart, setAddingToCart] = useState<string | null>(null);
   
@@ -30,7 +31,7 @@ export default function Products() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        setLoading(true);
+        if (!seeded) setLoading(true);
         const stripeProducts = await stripeService.getProducts();
         setProducts(stripeProducts);
         setError(null);
@@ -43,6 +44,8 @@ export default function Products() {
     };
 
     fetchProducts();
+
+    if (seeded) return;
 
     // Hide loading animation after 2 seconds
     const timer = setTimeout(() => {
@@ -315,7 +318,10 @@ export default function Products() {
                             {/* Info */}
                             <div className="text-center sm:text-left">
                                 <h3 className="font-serif text-lg text-[#2c2c2c] mb-1 group-hover:text-[#b8956a] transition-colors truncate">
-                                    {product.name}
+                                    {/* Real link so crawlers can follow it; the card's onClick handles the rest of the tile */}
+                                    <Link to={`/products/${product.id}`} onClick={(e) => e.stopPropagation()}>
+                                        {product.name}
+                                    </Link>
                                 </h3>
                                 <div className="flex items-center justify-center sm:justify-between">
                                     <span className="text-sm font-medium text-[#6b6b6b]">
