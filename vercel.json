@@ -16,11 +16,11 @@
   "rewrites": [
     {
       "source": "/:page(cart|order-success|owner-dashboard|square-setup|square-service-ids|square-product-ids|product-catalog|quick-products|stripe-migration|design-system)",
-      "destination": "/app-shell.html"
+      "destination": "/app-shell"
     },
     {
       "source": "/products/:id",
-      "destination": "/app-shell.html"
+      "destination": "/app-shell"
     }
   ],
   "headers": [
